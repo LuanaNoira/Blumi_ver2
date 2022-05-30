@@ -566,7 +566,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 1
-  m_Camera: {fileID: 133066510}
+  m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1136,27 +1136,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f1dc359de5af6964f9440183f416d7b2, type: 3}
       propertyPath: m_LocalScale.x
-      value: 250
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f1dc359de5af6964f9440183f416d7b2, type: 3}
       propertyPath: m_LocalScale.y
-      value: 250
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f1dc359de5af6964f9440183f416d7b2, type: 3}
       propertyPath: m_LocalScale.z
-      value: 250
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f1dc359de5af6964f9440183f416d7b2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 24.7854
+      value: 24.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f1dc359de5af6964f9440183f416d7b2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 56.34648
+      value: 86.3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f1dc359de5af6964f9440183f416d7b2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 120.06827
+      value: 112.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f1dc359de5af6964f9440183f416d7b2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3451,7 +3451,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2117603598
 Transform:
   m_ObjectHideFlags: 0
@@ -3625,7 +3625,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6509444390550901609, guid: 19f32e282a017c84e89b6a62a3f43386, type: 3}
       propertyPath: field of view
-      value: 26.991467
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 6509444390550901609, guid: 19f32e282a017c84e89b6a62a3f43386, type: 3}
       propertyPath: m_projectionMatrixMode
