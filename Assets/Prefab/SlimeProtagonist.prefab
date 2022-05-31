@@ -1362,6 +1362,7 @@ GameObject:
   - component: {fileID: 953465661181089364}
   - component: {fileID: 770637301364961723}
   - component: {fileID: 770637301364961722}
+  - component: {fileID: 2990739926535245115}
   m_Layer: 0
   m_Name: SlimeProtagonist
   m_TagString: Untagged
@@ -1443,6 +1444,18 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 1024
+--- !u!114 &2990739926535245115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464067965085224174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99e54d6da460f164693bfc0514ad57ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &500166795559774433
 GameObject:
   m_ObjectHideFlags: 0
