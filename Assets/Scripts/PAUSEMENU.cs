@@ -28,6 +28,7 @@ public class PAUSEMENU : MonoBehaviour
         pauseMenu.SetActive(false); 
         Time.timeScale = 1f;
         GameisPaused = false;
+        Debug.Log("Ta a clicar!");
     }
 
     void Pause()
@@ -40,7 +41,7 @@ public class PAUSEMENU : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
-
+        Debug.Log("ta a clicar");
     }
 }
 
