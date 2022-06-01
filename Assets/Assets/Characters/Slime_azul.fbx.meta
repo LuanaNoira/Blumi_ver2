@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: ef8056db29948cd438da8c077034e3bd
+guid: 4ae2506fbe9c21740b3a1e73853008b6
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Azul_Smile
+    second: {fileID: 2800000, guid: 13b4338b4f3e37f44b3ca9df3b427ceb, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
