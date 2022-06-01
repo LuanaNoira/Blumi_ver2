@@ -18,6 +18,8 @@ public class ShootMagic : MonoBehaviour
         if(Physics.Raycast(myCamera.transform.position, myCamera.transform.forward, out hit, range))
         {
             Debug.Log(hit.transform.name);
+            //Fazer com tags(os slimes têm diferentes tags)
+            //Cada magia tem uma script
         }
     }
 }
