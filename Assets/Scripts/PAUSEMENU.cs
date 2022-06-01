@@ -37,6 +37,7 @@ public class PAUSEMENU : MonoBehaviour
         pauseMenu.SetActive(true);
         Time.timeScale = 0f;
         GameisPaused = true;
+        Cursor.visible = true;
     }
 
     public void QuitGame()
