@@ -15,7 +15,7 @@ public class Dialogue : MonoBehaviour
     public float letterDelay = 0.1f;
     public float letterMultiplier = 0.5f;
 
-    public KeyCode DialogueInput = KeyCode.F;
+    public KeyCode DialogueInput = KeyCode.E;
 
     public string Names;
 
@@ -37,7 +37,7 @@ public class Dialogue : MonoBehaviour
 
     void Update()
     {
-        NPCName();
+        //NPCName();
     }
 
     public void EnterRangeOfNPC()
@@ -53,33 +53,29 @@ public class Dialogue : MonoBehaviour
     public void NPCName()
     {
         outOfRange = false;
+        dialogueBoxGUI.gameObject.SetActive(true);
         nameText.text = Names;
         if (Input.GetKeyDown(KeyCode.E))
         {
             if (!dialogueActive)
             {
-            
-                dialogueBoxGUI.gameObject.SetActive(true);
+                //dialogueBoxGUI.gameObject.SetActive(true);
                 dialogueActive = true;
                 StartCoroutine(StartDialogue());
-                //StartDialogue();
             }
         }
-        
+        StartDialogue();
     }
 
     private IEnumerator StartDialogue()
     {
         Debug.Log("passei aqui");
-        if (outOfRange == false && dialogueLines.Length> 0)
+        if (outOfRange == false  && dialogueLines.Length> 0)
         {
-
             int dialogueLength = dialogueLines.Length;
             int currentDialogueIndex = 0;
 
             Debug.Log("dialogueLength:" + dialogueLength);
-
-            
 
             while (currentDialogueIndex < dialogueLength || !letterIsMultiplied)
             {
