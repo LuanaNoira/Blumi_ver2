@@ -26,21 +26,23 @@ public class NPC : MonoBehaviour
 
     void Update()
     {
-        Vector3 Pos = Camera.main.WorldToScreenPoint(NPCCharacter.position);
-        Pos.y += 175;
-        ChatBackGround.position = Pos;
+        //Vector3 Pos = Camera.main.WorldToScreenPoint(NPCCharacter.position);
+        //ChatBackGround.position = Pos;
     }
 
     public void OnTriggerStay(Collider other)
     {
         this.gameObject.GetComponent<NPC>().enabled = true;
-        FindObjectOfType<Dialogue>().EnterRangeOfNPC();
-        if ((other.gameObject.tag == "Player") && Input.GetKeyDown(KeyCode.E))
+        if (other.gameObject.tag == "Interact")
         {
-            this.gameObject.GetComponent<NPC>().enabled = true;
-            dialogueSystem.Names = Name;
-            dialogueSystem.dialogueLines = sentences;
-            FindObjectOfType<Dialogue>().NPCName();
+            FindObjectOfType<Dialogue>().EnterRangeOfNPC();
+            if ((other.gameObject.tag == "Player") && Input.GetKeyDown(KeyCode.E))
+            {
+                this.gameObject.GetComponent<NPC>().enabled = true;
+                dialogueSystem.Names = Name;
+                dialogueSystem.dialogueLines = sentences;
+                FindObjectOfType<Dialogue>().NPCName();
+            }
         }
     }
 

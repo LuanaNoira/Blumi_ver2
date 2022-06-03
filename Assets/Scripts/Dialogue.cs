@@ -37,7 +37,7 @@ public class Dialogue : MonoBehaviour
 
     void Update()
     {
-
+        NPCName();
     }
 
     public void EnterRangeOfNPC()
@@ -53,25 +53,33 @@ public class Dialogue : MonoBehaviour
     public void NPCName()
     {
         outOfRange = false;
-        dialogueBoxGUI.gameObject.SetActive(true);
         nameText.text = Names;
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             if (!dialogueActive)
             {
+            
+                dialogueBoxGUI.gameObject.SetActive(true);
                 dialogueActive = true;
                 StartCoroutine(StartDialogue());
+                //StartDialogue();
             }
         }
-        StartDialogue();
+        
     }
 
     private IEnumerator StartDialogue()
     {
-        if (outOfRange == false)
+        Debug.Log("passei aqui");
+        if (outOfRange == false && dialogueLines.Length> 0)
         {
+
             int dialogueLength = dialogueLines.Length;
             int currentDialogueIndex = 0;
+
+            Debug.Log("dialogueLength:" + dialogueLength);
+
+            
 
             while (currentDialogueIndex < dialogueLength || !letterIsMultiplied)
             {
