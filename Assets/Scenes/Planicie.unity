@@ -336,6 +336,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 710741364}
+  magicSwitch: {fileID: 306287745}
+  crosshair: {fileID: 726350220}
 --- !u!1 &27691164
 GameObject:
   m_ObjectHideFlags: 0

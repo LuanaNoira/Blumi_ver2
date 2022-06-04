@@ -8,6 +8,9 @@ public class PAUSEMENU : MonoBehaviour
     public static bool GameisPaused = false;
     public GameObject pauseMenu;
 
+    [SerializeField] private GameObject magicSwitch;
+    [SerializeField] private GameObject crosshair;
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -15,7 +18,6 @@ public class PAUSEMENU : MonoBehaviour
             if(GameisPaused)
             {
                 Resume();
-
             }else
             {
                 Pause();
@@ -29,7 +31,8 @@ public class PAUSEMENU : MonoBehaviour
         Time.timeScale = 1f;
         GameisPaused = false;
         Cursor.visible = false;
-        Debug.Log("Ta a clicar!");
+        magicSwitch.GetComponent<MagicSwitching>().enabled = true;
+        crosshair.SetActive(true);
     }
 
     void Pause()
@@ -37,6 +40,8 @@ public class PAUSEMENU : MonoBehaviour
         pauseMenu.SetActive(true);
         Time.timeScale = 0f;
         GameisPaused = true;
+        magicSwitch.GetComponent<MagicSwitching>().enabled = false;
+        crosshair.SetActive(false);
     }
 
     public void QuitGame()
