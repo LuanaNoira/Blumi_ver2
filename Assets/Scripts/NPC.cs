@@ -19,8 +19,8 @@ public class NPC : MonoBehaviour
 
     void Start()
     {
-        //FindObjectOfType<Dialogue>().OutOfRange();
-        //this.gameObject.GetComponent<NPC>().enabled = false;
+        FindObjectOfType<Dialogue>().OutOfRange();
+        this.gameObject.GetComponent<NPC>().enabled = false;
         dialogueSystem = FindObjectOfType<Dialogue>();
     }
 

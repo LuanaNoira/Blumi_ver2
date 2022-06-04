@@ -53,13 +53,13 @@ public class Dialogue : MonoBehaviour
     public void NPCName()
     {
         outOfRange = false;
-        dialogueBoxGUI.gameObject.SetActive(true);
+        //dialogueBoxGUI.gameObject.SetActive(true);
         nameText.text = Names;
         if (Input.GetKeyDown(KeyCode.E))
         {
             if (!dialogueActive)
             {
-                //dialogueBoxGUI.gameObject.SetActive(true);
+                dialogueBoxGUI.gameObject.SetActive(true);
                 dialogueActive = true;
                 StartCoroutine(StartDialogue());
             }
