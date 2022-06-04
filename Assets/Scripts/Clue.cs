@@ -8,23 +8,29 @@ public class Clue : MonoBehaviour
     public GameObject dialogueKey;
     public KeyCode DialogueInput = KeyCode.E;
     [SerializeField] private bool isInRange = false;
-    private int countKey = 0;
+    [SerializeField] private bool isShowing = false;
+    
+    [TextArea(3,15)]
     public string popUp;
 
     private void Update()
     {
-        //if((isInRange == true) && Input.GetKeyDown(DialogueInput))
         if(Input.GetKeyDown(DialogueInput))
         {
-            countKey++;
-            if(isInRange)
+            if(isInRange && (isShowing == false))
             {
                 ShowPopUp();
+                isShowing = true;
             }
-            else if(countKey >= 1)
+            else if(isInRange && isShowing)
             {
                 DontShowPopUp();
-                countKey = 0;
+                dialogueKey.SetActive(true);
+            }
+            else if(isInRange == false)
+            {
+                DontShowPopUp();
+                isInRange = false;
             }
         }
     }
@@ -38,8 +44,7 @@ public class Clue : MonoBehaviour
 
     public void DontShowPopUp()
     {
-        dialogueKey.SetActive(false);
-        isInRange = false;
+        isShowing = false;
         ClueMenu pop = GameObject.FindGameObjectWithTag("PopUp").GetComponent<ClueMenu>();
         pop.ExitPopUp(popUp);
     }
@@ -56,5 +61,7 @@ public class Clue : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         DontShowPopUp();
+        dialogueKey.SetActive(false);
+        isInRange = false;
     }
 }
