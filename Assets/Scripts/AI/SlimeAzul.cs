@@ -4,5 +4,8 @@ using UnityEngine;
 
 public class SlimeAzul : MonoBehaviour
 {
-
+    public void Charmed()
+    {
+        Debug.Log("yes");
+    }
 }

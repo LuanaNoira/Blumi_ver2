@@ -17,7 +17,13 @@ public class ShootMagic : MonoBehaviour
         RaycastHit hit;
         if(Physics.Raycast(myCamera.transform.position, myCamera.transform.forward, out hit, range))
         {
-            Debug.Log(hit.transform.name);
+            //Debug.Log(hit.transform.name);
+
+            SlimeAzul sAzul = hit.transform.GetComponent<SlimeAzul>();
+            if (sAzul != null)
+            {
+                sAzul.Charmed();
+            }
             //Fazer com tags(os slimes têm diferentes tags)
             //Cada magia tem uma script
         }
