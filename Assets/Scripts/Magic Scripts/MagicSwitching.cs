@@ -6,8 +6,18 @@ public class MagicSwitching : MonoBehaviour
 {
     public int selectedMagic = 0;
 
+    public AbilityUI ui;
+
+    public bool mInvisibility = false;
+    public bool mWater = false;
+    public bool mPurification = false;
+    public bool mTeleport = false;
+    public bool mStun = false;
+
     void Start()
     {
+
+
         SelectMagic();
     }
 
@@ -46,9 +56,29 @@ public class MagicSwitching : MonoBehaviour
             selectedMagic = 2;
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha4) && transform.childCount >= 4)
+        if (Input.GetKeyDown(KeyCode.Alpha4) && (transform.childCount >= 4) && mInvisibility)
         {
             selectedMagic = 3;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha5) && (transform.childCount >= 5) && mWater)
+        {
+            selectedMagic = 4;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha6) && (transform.childCount >= 6) && mStun)
+        {
+            selectedMagic = 5;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha7) && (transform.childCount >= 7) && mTeleport)
+        {
+            selectedMagic = 6;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha8) && (transform.childCount >= 8) && mPurification)
+        {
+            selectedMagic = 7;
         }
 
         if (previousSelectedMagic != selectedMagic)

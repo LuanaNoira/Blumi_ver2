@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Interact
   - PopUp
+  - AbilityUI
   layers:
   - Default
   - TransparentFX
