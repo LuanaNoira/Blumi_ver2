@@ -8882,7 +8882,7 @@ PrefabInstance:
     - target: {fileID: 104504130190871862, guid: be090f5da7aeedc489e8e63e18ef64a8, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d1ce3499f0220a14eb2a016e607343ba, type: 2}
+      objectReference: {fileID: 2100000, guid: 8e2960a8258735b43bddd1f568d215af, type: 2}
     - target: {fileID: 144301674921436717, guid: be090f5da7aeedc489e8e63e18ef64a8, type: 3}
       propertyPath: m_Name
       value: 01_Slime_Azul_Rigged
