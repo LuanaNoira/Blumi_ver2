@@ -16,16 +16,17 @@ public class MagicSwitching : MonoBehaviour
 
     void Start()
     {
-
+        ui = GameObject.FindGameObjectWithTag("AbilityUI").GetComponent<AbilityUI>();
 
         SelectMagic();
+        ui.setMagicImage(0);
     }
 
     
     void Update()
     {
         int previousSelectedMagic = selectedMagic;
-
+        /*
         if(Input.GetAxis("Mouse ScrollWheel") > 0f)
         {
             if(selectedMagic >= transform.childCount - 1)
@@ -40,6 +41,7 @@ public class MagicSwitching : MonoBehaviour
             else
                 selectedMagic--;
         }
+        */
 
         if(Input.GetKeyDown(KeyCode.Alpha1))
         {
@@ -93,7 +95,10 @@ public class MagicSwitching : MonoBehaviour
         foreach (Transform magic in transform)
         {
             if (i == selectedMagic)
+            {
                 magic.gameObject.SetActive(true);
+                ui.setMagicImage(i);
+            }
             else
                 magic.gameObject.SetActive(false);
             i++;

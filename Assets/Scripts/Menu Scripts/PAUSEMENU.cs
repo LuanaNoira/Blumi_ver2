@@ -10,6 +10,7 @@ public class PAUSEMENU : MonoBehaviour
 
     [SerializeField] private GameObject magicSwitch;
     [SerializeField] private GameObject crosshair;
+    [SerializeField] private GameObject abilityUI;
 
     private void Update()
     {
@@ -32,6 +33,7 @@ public class PAUSEMENU : MonoBehaviour
         GameisPaused = false;
         Cursor.visible = false;
         magicSwitch.GetComponent<MagicSwitching>().enabled = true;
+        abilityUI.SetActive(true);
         crosshair.SetActive(true);
     }
 
@@ -41,6 +43,7 @@ public class PAUSEMENU : MonoBehaviour
         Time.timeScale = 0f;
         GameisPaused = true;
         magicSwitch.GetComponent<MagicSwitching>().enabled = false;
+        abilityUI.SetActive(false);
         crosshair.SetActive(false);
     }
 
