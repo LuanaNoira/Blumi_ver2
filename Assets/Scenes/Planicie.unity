@@ -3850,7 +3850,7 @@ PrefabInstance:
     - target: {fileID: 6127234234382494786, guid: 66d4498c9db67ab49a0934d22635585f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 27e1f0f9f58483349944ca83d5ae948a, type: 2}
+      objectReference: {fileID: 2100000, guid: b443a27d198126042a2d2ac8aa91a8e5, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66d4498c9db67ab49a0934d22635585f, type: 3}
 --- !u!4 &711999457 stripped
@@ -5567,7 +5567,7 @@ PrefabInstance:
     - target: {fileID: -8092258547129903542, guid: 36be55111e381464d8edc5d1c18954ef, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: dfea7bc5df230e54e9d5bffe170a1974, type: 2}
+      objectReference: {fileID: 2100000, guid: 99a8a4f77a2d13d458d21987b2322041, type: 2}
     - target: {fileID: 919132149155446097, guid: 36be55111e381464d8edc5d1c18954ef, type: 3}
       propertyPath: m_Name
       value: 06_Slime_Pirata_Rigged
@@ -5579,6 +5579,30 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 36be55111e381464d8edc5d1c18954ef, type: 3}
   m_PrefabInstance: {fileID: 1176975011}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1176975013 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 36be55111e381464d8edc5d1c18954ef, type: 3}
+  m_PrefabInstance: {fileID: 1176975011}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1176975014
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176975013}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 738d0cfafe326734787901c1efdae2a8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1183020300
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6672,7 +6696,7 @@ PrefabInstance:
     - target: {fileID: 7678986793670064840, guid: 4ef99b8d24caf1f4bae97dc77d2ae0be, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 343d097c14e47804eab235c2e77c5327, type: 2}
+      objectReference: {fileID: 2100000, guid: 457b948c33a83a746b86825fedf9564d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ef99b8d24caf1f4bae97dc77d2ae0be, type: 3}
 --- !u!4 &1578763445 stripped
@@ -6680,6 +6704,30 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4ef99b8d24caf1f4bae97dc77d2ae0be, type: 3}
   m_PrefabInstance: {fileID: 1578763444}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1578763446 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4ef99b8d24caf1f4bae97dc77d2ae0be, type: 3}
+  m_PrefabInstance: {fileID: 1578763444}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1578763447
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578763446}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 56a3b67984ca40c48827706b28d475c2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1586719825
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6811,7 +6859,7 @@ PrefabInstance:
     - target: {fileID: 6127234234382494786, guid: fbad4b1b8b1bd244d9a220a2f2d6ad03, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 63f3ca16a5af64445ae3331ec1a6fdcb, type: 2}
+      objectReference: {fileID: 2100000, guid: 73e8ad7cdc438fa4ba0852a4c3ff6153, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbad4b1b8b1bd244d9a220a2f2d6ad03, type: 3}
 --- !u!4 &1613386213 stripped
@@ -8939,6 +8987,10 @@ PrefabInstance:
       propertyPath: waypoints.Array.data[1]
       value: 
       objectReference: {fileID: 1366022029}
+    - target: {fileID: 1063342412138716018, guid: be090f5da7aeedc489e8e63e18ef64a8, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be090f5da7aeedc489e8e63e18ef64a8, type: 3}
 --- !u!1001 &1065363474784636484
