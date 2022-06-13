@@ -70,7 +70,8 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1760594746065725482}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -1406499464187492789}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -123,6 +124,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chaseRange: 8
+--- !u!114 &-1406499464187492789
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4542a967c909874428a3f15a68514ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1101 &-873337163243495739
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -399,3 +412,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bb258f36142a2a42be6098b106b201d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  chaseRange: 8
