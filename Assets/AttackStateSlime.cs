@@ -1,34 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
-public class IdleStateNorSlime : StateMachineBehaviour
+public class AttackStateSlime : StateMachineBehaviour
 {
-    float timer;
-
     Transform player;
-    [SerializeField] private float chaseRange = 8;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        timer = 0;
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        timer += Time.deltaTime;
-        if(timer > 5)
-        {
-            animator.SetBool("isPatrolling", true);
-        }
+        animator.transform.LookAt(player);
 
         float distance = Vector3.Distance(player.position, animator.transform.position);
-        if(distance < chaseRange)
+        if (distance > 3.5f)
         {
-            animator.SetBool("isChasing", true);
+            animator.SetBool("isAttacking", false);
         }
     }
 

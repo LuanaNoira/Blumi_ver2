@@ -8,14 +8,19 @@ public class PatrolStateNorSlime : StateMachineBehaviour
     private NavMeshAgent agent;
 
     public float radius;
-
     float timer;
+
+    Transform player;
+    [SerializeField] private float chaseRange = 8;
 
     //OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         agent = animator.GetComponent<NavMeshAgent>();
         timer = 0;
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        //Speed no caso de precisar mexer
+        //agent.speed = 1.5f;
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -31,6 +36,12 @@ public class PatrolStateNorSlime : StateMachineBehaviour
         if (timer > Random.Range(7,10))
         {
             animator.SetBool("isPatrolling", false);
+        }
+
+        float distance = Vector3.Distance(player.position, animator.transform.position);
+        if (distance < chaseRange)
+        {
+            animator.SetBool("isChasing", true);
         }
     }
 
@@ -51,4 +62,12 @@ public class PatrolStateNorSlime : StateMachineBehaviour
     //{
     //    // Implement code that sets up animation IK (inverse kinematics)
     //}
+
+#if UNITY_EDITOR
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireSphere(agent.transform.position, agent.radius);
+    }
+
+#endif
 }
