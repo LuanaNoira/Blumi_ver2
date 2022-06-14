@@ -1,8 +1,11 @@
 fileFormatVersion: 2
-guid: b4a4e57384f0b2e4c818601bb0fd303e
+guid: 19bdd21deef90af49916230bc3728966
 ModelImporter:
   serializedVersion: 20200
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: -8786371636935797593
+    second: Petala.007|Petala.007Action
   externalObjects: {}
   materials:
     materialImportMode: 2

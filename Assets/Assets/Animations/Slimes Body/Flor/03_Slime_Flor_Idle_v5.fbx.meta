@@ -1,8 +1,11 @@
 fileFormatVersion: 2
-guid: 07515f6e0e0094b45a6ccf458a69c3a2
+guid: 21d3c2083a6a27d4ca653128fa923889
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
+  - first:
+      74: 3016784880305998462
+    second: ROOT Petalas|ROOT PetalasAction
   - first:
       74: 4219266326801906582
     second: Body|BodyAction
