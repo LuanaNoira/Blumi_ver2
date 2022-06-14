@@ -13,6 +13,7 @@ public class AbilityUI : MonoBehaviour
         {
             magicImage[i].GetComponent<Image>().color = new Color32(0, 0, 0, 69);
         }
+        magicImage[0].GetComponent<Image>().color = new Color32(255, 255, 255, 69);
     }
 
     public void setMagicImage(int e)
