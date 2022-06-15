@@ -60,8 +60,11 @@ public class Clue : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        DontShowPopUp();
-        dialogueKey.SetActive(false);
-        isInRange = false;
+        if (other.gameObject.tag == "Player")
+        {
+            DontShowPopUp();
+            dialogueKey.SetActive(false);
+            isInRange = false;
+        }
     }
 }
