@@ -1,0 +1,996 @@
+fileFormatVersion: 2
+guid: 2b3dc4c241720884294b3ef3ddb9eaf6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1258526156170067606
+    second: Bolha_sprite_sheet (1)_0
+  - first:
+      213: -7013770966782440332
+    second: Bolha_sprite_sheet (1)_1
+  - first:
+      213: 8437921733303693791
+    second: Bolha_sprite_sheet (1)_2
+  - first:
+      213: -2209165480321826286
+    second: Bolha_sprite_sheet (1)_3
+  - first:
+      213: 7242405482633666261
+    second: Bolha_sprite_sheet (1)_4
+  - first:
+      213: 5347978635815680929
+    second: Bolha_sprite_sheet (1)_5
+  - first:
+      213: -772141665069395460
+    second: Bolha_sprite_sheet (1)_6
+  - first:
+      213: -6352243377545202408
+    second: Bolha_sprite_sheet (1)_7
+  - first:
+      213: 3298222685280068271
+    second: Bolha_sprite_sheet (1)_8
+  - first:
+      213: 6768936707611968186
+    second: Bolha_sprite_sheet (1)_9
+  - first:
+      213: -8067538786099455131
+    second: Bolha_sprite_sheet (1)_10
+  - first:
+      213: -2814981539201132046
+    second: Bolha_sprite_sheet (1)_11
+  - first:
+      213: 8415197389515345666
+    second: Bolha_sprite_sheet (1)_12
+  - first:
+      213: 3467450629340025239
+    second: Bolha_sprite_sheet (1)_13
+  - first:
+      213: -7864466362800071372
+    second: Bolha_sprite_sheet (1)_14
+  - first:
+      213: 6345785221685751938
+    second: Bolha_sprite_sheet (1)_15
+  - first:
+      213: 2462092457322118038
+    second: Bolha_sprite_sheet (1)_16
+  - first:
+      213: -2295799020311417182
+    second: Bolha_sprite_sheet (1)_17
+  - first:
+      213: 5597271985388794155
+    second: Bolha_sprite_sheet (1)_18
+  - first:
+      213: 7988522687324767111
+    second: Bolha_sprite_sheet (1)_19
+  - first:
+      213: 9085997945186628713
+    second: Bolha_sprite_sheet (1)_20
+  - first:
+      213: -3774829636447505094
+    second: Bolha_sprite_sheet (1)_21
+  - first:
+      213: 8096019871803173826
+    second: Bolha_sprite_sheet (1)_22
+  - first:
+      213: 4437977539965892166
+    second: Bolha_sprite_sheet (1)_23
+  - first:
+      213: 4462037304509646758
+    second: Bolha_sprite_sheet (1)_24
+  - first:
+      213: -8022972992078741060
+    second: Bolha_sprite_sheet (1)_25
+  - first:
+      213: -4797604407278985564
+    second: Bolha_sprite_sheet (1)_26
+  - first:
+      213: 7763602165397341137
+    second: Bolha_sprite_sheet (1)_27
+  - first:
+      213: -4933168745374678378
+    second: Bolha_sprite_sheet (1)_28
+  - first:
+      213: 5770153013341069237
+    second: Bolha_sprite_sheet (1)_29
+  - first:
+      213: 7310919204873694969
+    second: Bolha_sprite_sheet (1)_30
+  - first:
+      213: -5551053500912060182
+    second: Bolha_sprite_sheet (1)_31
+  - first:
+      213: 3087118724001808639
+    second: Bolha_sprite_sheet (1)_32
+  - first:
+      213: 6041143227898297331
+    second: Bolha_sprite_sheet (1)_33
+  - first:
+      213: -3080207544403132487
+    second: Bolha_sprite_sheet (1)_34
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_0
+      rect:
+        serializedVersion: 2
+        x: 5973
+        y: 4584
+        width: 197
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69efd0ffede277110800000000000000
+      internalID: 1258526156170067606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_1
+      rect:
+        serializedVersion: 2
+        x: 7322
+        y: 4628
+        width: 198
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c0cfc57741aae90800000000000000
+      internalID: -7013770966782440332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_2
+      rect:
+        serializedVersion: 2
+        x: 8674
+        y: 4670
+        width: 198
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd17d144c15891570800000000000000
+      internalID: 8437921733303693791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_3
+      rect:
+        serializedVersion: 2
+        x: 10029
+        y: 4703
+        width: 199
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212cc5743b77751e0800000000000000
+      internalID: -2209165480321826286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_4
+      rect:
+        serializedVersion: 2
+        x: 11387
+        y: 4733
+        width: 199
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de98bf1a61328460800000000000000
+      internalID: 7242405482633666261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_5
+      rect:
+        serializedVersion: 2
+        x: 12745
+        y: 4764
+        width: 199
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abfb260c36d73a40800000000000000
+      internalID: 5347978635815680929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_6
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 4412
+        width: 199
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf192412f3dc845f0800000000000000
+      internalID: -772141665069395460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_7
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 4454
+        width: 199
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8153792cd4c48d7a0800000000000000
+      internalID: -6352243377545202408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_8
+      rect:
+        serializedVersion: 2
+        x: 3260
+        y: 4498
+        width: 199
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2e04abe04a5cd20800000000000000
+      internalID: 3298222685280068271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_9
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 4542
+        width: 197
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2405c721810fd50800000000000000
+      internalID: 6768936707611968186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_10
+      rect:
+        serializedVersion: 2
+        x: 6191
+        y: 3467
+        width: 202
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b1bdab7385a0090800000000000000
+      internalID: -8067538786099455131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_11
+      rect:
+        serializedVersion: 2
+        x: 7540
+        y: 3506
+        width: 201
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f952aa543d2fe8d0800000000000000
+      internalID: -2814981539201132046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_12
+      rect:
+        serializedVersion: 2
+        x: 8879
+        y: 3540
+        width: 201
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f4bdca079c8c470800000000000000
+      internalID: 8415197389515345666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_13
+      rect:
+        serializedVersion: 2
+        x: 10215
+        y: 3575
+        width: 201
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791540ed9fbde1030800000000000000
+      internalID: 3467450629340025239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_14
+      rect:
+        serializedVersion: 2
+        x: 11546
+        y: 3610
+        width: 201
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d1b41c28dcbd290800000000000000
+      internalID: -7864466362800071372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_15
+      rect:
+        serializedVersion: 2
+        x: 12874
+        y: 3647
+        width: 201
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280b087a902c01850800000000000000
+      internalID: 6345785221685751938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_16
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 3327
+        width: 201
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b7ad29b0c1b2220800000000000000
+      internalID: 2462092457322118038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_17
+      rect:
+        serializedVersion: 2
+        x: 2131
+        y: 3359
+        width: 200
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aee5a664fea320e0800000000000000
+      internalID: -2295799020311417182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_18
+      rect:
+        serializedVersion: 2
+        x: 3486
+        y: 3394
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21385017318dad40800000000000000
+      internalID: 5597271985388794155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_19
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 3430
+        width: 201
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78344222f0fecde60800000000000000
+      internalID: 7988522687324767111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_20
+      rect:
+        serializedVersion: 2
+        x: 6106
+        y: 2348
+        width: 200
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96437c0ddf2f71e70800000000000000
+      internalID: 9085997945186628713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_21
+      rect:
+        serializedVersion: 2
+        x: 7409
+        y: 2385
+        width: 199
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35fdef027c1d9bc0800000000000000
+      internalID: -3774829636447505094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_22
+      rect:
+        serializedVersion: 2
+        x: 8711
+        y: 2421
+        width: 200
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbe459cd27da5070800000000000000
+      internalID: 8096019871803173826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_23
+      rect:
+        serializedVersion: 2
+        x: 10016
+        y: 2458
+        width: 199
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64634d62f0dd69d30800000000000000
+      internalID: 4437977539965892166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_24
+      rect:
+        serializedVersion: 2
+        x: 11323
+        y: 2498
+        width: 198
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7c6dd99475ced30800000000000000
+      internalID: 4462037304509646758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_25
+      rect:
+        serializedVersion: 2
+        x: 12647
+        y: 2526
+        width: 204
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1089c329ca8a090800000000000000
+      internalID: -8022972992078741060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_26
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 2214
+        width: 201
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae994bd53c7b6db0800000000000000
+      internalID: -4797604407278985564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_27
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 2248
+        width: 203
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d346fd390bddbb60800000000000000
+      internalID: 7763602165397341137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_28
+      rect:
+        serializedVersion: 2
+        x: 3494
+        y: 2284
+        width: 202
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69202e2c92dd98bb0800000000000000
+      internalID: -4933168745374678378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_29
+      rect:
+        serializedVersion: 2
+        x: 4799
+        y: 2315
+        width: 201
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf18d31893b31050800000000000000
+      internalID: 5770153013341069237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_30
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1085
+        width: 201
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fee31c284a957560800000000000000
+      internalID: 7310919204873694969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_31
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 1114
+        width: 199
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8b2fc6042b6f2b0800000000000000
+      internalID: -5551053500912060182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_32
+      rect:
+        serializedVersion: 2
+        x: 3314
+        y: 1125
+        width: 213
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0c59b8f16a7da20800000000000000
+      internalID: 3087118724001808639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_33
+      rect:
+        serializedVersion: 2
+        x: 4639
+        y: 1136
+        width: 230
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb722822c376d350800000000000000
+      internalID: 6041143227898297331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bolha_sprite_sheet (1)_34
+      rect:
+        serializedVersion: 2
+        x: 5960
+        y: 1132
+        width: 255
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf7f59de87e045d0800000000000000
+      internalID: -3080207544403132487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b4207e55d046c0347829f82586b27e86
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
