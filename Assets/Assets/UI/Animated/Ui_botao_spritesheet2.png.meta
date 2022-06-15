@@ -1,0 +1,6900 @@
+fileFormatVersion: 2
+guid: fa39477bb31bfa4408b51bcd4bebbb10
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3027606055528625718
+    second: Ui_botao_spritesheet2_0
+  - first:
+      213: 6356467690937075157
+    second: Ui_botao_spritesheet2_1
+  - first:
+      213: 8360537775855335185
+    second: Ui_botao_spritesheet2_2
+  - first:
+      213: -6015204922373912543
+    second: Ui_botao_spritesheet2_3
+  - first:
+      213: 925626481793076354
+    second: Ui_botao_spritesheet2_4
+  - first:
+      213: -2799184499702790425
+    second: Ui_botao_spritesheet2_5
+  - first:
+      213: 7099949847849347726
+    second: Ui_botao_spritesheet2_6
+  - first:
+      213: -6066005192699663965
+    second: Ui_botao_spritesheet2_7
+  - first:
+      213: 1504463601400038069
+    second: Ui_botao_spritesheet2_8
+  - first:
+      213: -3748242692623261028
+    second: Ui_botao_spritesheet2_9
+  - first:
+      213: 5992820841832690891
+    second: Ui_botao_spritesheet2_10
+  - first:
+      213: -2118094577963469535
+    second: Ui_botao_spritesheet2_11
+  - first:
+      213: 1003341805702162494
+    second: Ui_botao_spritesheet2_12
+  - first:
+      213: -5899015729363428123
+    second: Ui_botao_spritesheet2_13
+  - first:
+      213: -8916025485359084186
+    second: Ui_botao_spritesheet2_14
+  - first:
+      213: -4170479206404439342
+    second: Ui_botao_spritesheet2_15
+  - first:
+      213: -2113900620885209204
+    second: Ui_botao_spritesheet2_16
+  - first:
+      213: 6945833254214777222
+    second: Ui_botao_spritesheet2_17
+  - first:
+      213: 7782256290925123566
+    second: Ui_botao_spritesheet2_18
+  - first:
+      213: -1205068996161957601
+    second: Ui_botao_spritesheet2_19
+  - first:
+      213: -8397960547746847554
+    second: Ui_botao_spritesheet2_20
+  - first:
+      213: 1845196894326524355
+    second: Ui_botao_spritesheet2_21
+  - first:
+      213: -753012546396935447
+    second: Ui_botao_spritesheet2_22
+  - first:
+      213: 7761169184291252067
+    second: Ui_botao_spritesheet2_23
+  - first:
+      213: 5157082980650709615
+    second: Ui_botao_spritesheet2_24
+  - first:
+      213: -9024612903824282053
+    second: Ui_botao_spritesheet2_25
+  - first:
+      213: 4349940255727919332
+    second: Ui_botao_spritesheet2_26
+  - first:
+      213: 6213582250397746176
+    second: Ui_botao_spritesheet2_27
+  - first:
+      213: -1172244398783941080
+    second: Ui_botao_spritesheet2_28
+  - first:
+      213: 6667839042444645126
+    second: Ui_botao_spritesheet2_29
+  - first:
+      213: 3957284786717918718
+    second: Ui_botao_spritesheet2_30
+  - first:
+      213: -6218274525672583716
+    second: Ui_botao_spritesheet2_31
+  - first:
+      213: 3782918924106485581
+    second: Ui_botao_spritesheet2_32
+  - first:
+      213: 906223801095101933
+    second: Ui_botao_spritesheet2_33
+  - first:
+      213: -2699801025425846398
+    second: Ui_botao_spritesheet2_34
+  - first:
+      213: 1289518208713025587
+    second: Ui_botao_spritesheet2_35
+  - first:
+      213: 8709057715976219068
+    second: Ui_botao_spritesheet2_36
+  - first:
+      213: 4789640942228331154
+    second: Ui_botao_spritesheet2_37
+  - first:
+      213: -3841241334125114782
+    second: Ui_botao_spritesheet2_38
+  - first:
+      213: 1957688546108706211
+    second: Ui_botao_spritesheet2_39
+  - first:
+      213: 4747097862234271025
+    second: Ui_botao_spritesheet2_40
+  - first:
+      213: -6088202673128331859
+    second: Ui_botao_spritesheet2_41
+  - first:
+      213: 2054215555788185963
+    second: Ui_botao_spritesheet2_42
+  - first:
+      213: -3040062429605488529
+    second: Ui_botao_spritesheet2_43
+  - first:
+      213: -8523137925705469659
+    second: Ui_botao_spritesheet2_44
+  - first:
+      213: 3769615798144258559
+    second: Ui_botao_spritesheet2_45
+  - first:
+      213: -8495387060600938001
+    second: Ui_botao_spritesheet2_46
+  - first:
+      213: 3153340816524891491
+    second: Ui_botao_spritesheet2_47
+  - first:
+      213: -6396363044477169034
+    second: Ui_botao_spritesheet2_48
+  - first:
+      213: 7317484971323935808
+    second: Ui_botao_spritesheet2_49
+  - first:
+      213: 3495523649654728758
+    second: Ui_botao_spritesheet2_50
+  - first:
+      213: 8589928089527237773
+    second: Ui_botao_spritesheet2_51
+  - first:
+      213: 5630913595884521925
+    second: Ui_botao_spritesheet2_52
+  - first:
+      213: -2806216181592687385
+    second: Ui_botao_spritesheet2_53
+  - first:
+      213: -8017521589218585533
+    second: Ui_botao_spritesheet2_54
+  - first:
+      213: 4500496549664804181
+    second: Ui_botao_spritesheet2_55
+  - first:
+      213: -2857954314049576934
+    second: Ui_botao_spritesheet2_56
+  - first:
+      213: 5170413966771438108
+    second: Ui_botao_spritesheet2_57
+  - first:
+      213: 7005454525403281780
+    second: Ui_botao_spritesheet2_58
+  - first:
+      213: 6184372211928391173
+    second: Ui_botao_spritesheet2_59
+  - first:
+      213: 2161311480113362218
+    second: Ui_botao_spritesheet2_60
+  - first:
+      213: -7965367714688657480
+    second: Ui_botao_spritesheet2_61
+  - first:
+      213: 1747055150472316018
+    second: Ui_botao_spritesheet2_62
+  - first:
+      213: 6586690399703405721
+    second: Ui_botao_spritesheet2_63
+  - first:
+      213: -1486723824443456483
+    second: Ui_botao_spritesheet2_64
+  - first:
+      213: -1428600628883262075
+    second: Ui_botao_spritesheet2_65
+  - first:
+      213: -1909454743484453623
+    second: Ui_botao_spritesheet2_66
+  - first:
+      213: 3374563900365183736
+    second: Ui_botao_spritesheet2_67
+  - first:
+      213: 5190361095332340111
+    second: Ui_botao_spritesheet2_68
+  - first:
+      213: -1133788594521173939
+    second: Ui_botao_spritesheet2_69
+  - first:
+      213: -2758117916510543133
+    second: Ui_botao_spritesheet2_70
+  - first:
+      213: 6691433100731803482
+    second: Ui_botao_spritesheet2_71
+  - first:
+      213: 3847216603809815632
+    second: Ui_botao_spritesheet2_72
+  - first:
+      213: 3608060132001954805
+    second: Ui_botao_spritesheet2_73
+  - first:
+      213: -3828396466666659996
+    second: Ui_botao_spritesheet2_74
+  - first:
+      213: 4187212066906016234
+    second: Ui_botao_spritesheet2_75
+  - first:
+      213: -6261203599568904730
+    second: Ui_botao_spritesheet2_76
+  - first:
+      213: -5987914891509428943
+    second: Ui_botao_spritesheet2_77
+  - first:
+      213: 7632502227442155947
+    second: Ui_botao_spritesheet2_78
+  - first:
+      213: 4235876931283817815
+    second: Ui_botao_spritesheet2_79
+  - first:
+      213: 1748810692199393410
+    second: Ui_botao_spritesheet2_80
+  - first:
+      213: 2069376766444199386
+    second: Ui_botao_spritesheet2_81
+  - first:
+      213: 7320142071254560351
+    second: Ui_botao_spritesheet2_82
+  - first:
+      213: -1211050479744428021
+    second: Ui_botao_spritesheet2_83
+  - first:
+      213: -4586845693988147741
+    second: Ui_botao_spritesheet2_84
+  - first:
+      213: 8290397049758912803
+    second: Ui_botao_spritesheet2_85
+  - first:
+      213: -1479929634582649450
+    second: Ui_botao_spritesheet2_86
+  - first:
+      213: -6141703790079305274
+    second: Ui_botao_spritesheet2_87
+  - first:
+      213: -6869536932844953358
+    second: Ui_botao_spritesheet2_88
+  - first:
+      213: -8874283331289602698
+    second: Ui_botao_spritesheet2_89
+  - first:
+      213: -4888617432347294590
+    second: Ui_botao_spritesheet2_90
+  - first:
+      213: 6363036934716871559
+    second: Ui_botao_spritesheet2_91
+  - first:
+      213: 1858016037721485666
+    second: Ui_botao_spritesheet2_92
+  - first:
+      213: 8388377658162588646
+    second: Ui_botao_spritesheet2_93
+  - first:
+      213: 8644922002771827160
+    second: Ui_botao_spritesheet2_94
+  - first:
+      213: 371117441643000127
+    second: Ui_botao_spritesheet2_95
+  - first:
+      213: 3372946127103456555
+    second: Ui_botao_spritesheet2_96
+  - first:
+      213: -3828079931374815860
+    second: Ui_botao_spritesheet2_97
+  - first:
+      213: -5193293823256976087
+    second: Ui_botao_spritesheet2_98
+  - first:
+      213: -1521260675512429154
+    second: Ui_botao_spritesheet2_99
+  - first:
+      213: -1814434566507999749
+    second: Ui_botao_spritesheet2_100
+  - first:
+      213: 1817043697069727122
+    second: Ui_botao_spritesheet2_101
+  - first:
+      213: -1118025673278537285
+    second: Ui_botao_spritesheet2_102
+  - first:
+      213: -6024390834760236754
+    second: Ui_botao_spritesheet2_103
+  - first:
+      213: -1870345621423321355
+    second: Ui_botao_spritesheet2_104
+  - first:
+      213: -759907966796444024
+    second: Ui_botao_spritesheet2_105
+  - first:
+      213: -2856750035050305524
+    second: Ui_botao_spritesheet2_106
+  - first:
+      213: 3815041507799562243
+    second: Ui_botao_spritesheet2_107
+  - first:
+      213: -1105325069011918281
+    second: Ui_botao_spritesheet2_108
+  - first:
+      213: -983727347223409904
+    second: Ui_botao_spritesheet2_109
+  - first:
+      213: -6760312552893404402
+    second: Ui_botao_spritesheet2_110
+  - first:
+      213: -8347984659191966299
+    second: Ui_botao_spritesheet2_111
+  - first:
+      213: 3078363973214547675
+    second: Ui_botao_spritesheet2_112
+  - first:
+      213: -309846869726235947
+    second: Ui_botao_spritesheet2_113
+  - first:
+      213: -359199789890082816
+    second: Ui_botao_spritesheet2_114
+  - first:
+      213: 8705664169635711116
+    second: Ui_botao_spritesheet2_115
+  - first:
+      213: -7077603433305590709
+    second: Ui_botao_spritesheet2_116
+  - first:
+      213: 1487254184883443970
+    second: Ui_botao_spritesheet2_117
+  - first:
+      213: 6743887436677932317
+    second: Ui_botao_spritesheet2_118
+  - first:
+      213: -3566205077410491885
+    second: Ui_botao_spritesheet2_119
+  - first:
+      213: 8725550038001092526
+    second: Ui_botao_spritesheet2_120
+  - first:
+      213: -1281526378115267447
+    second: Ui_botao_spritesheet2_121
+  - first:
+      213: 2008179226951012665
+    second: Ui_botao_spritesheet2_122
+  - first:
+      213: -1198690815483284988
+    second: Ui_botao_spritesheet2_123
+  - first:
+      213: -1056592998370573513
+    second: Ui_botao_spritesheet2_124
+  - first:
+      213: -1017236811755940364
+    second: Ui_botao_spritesheet2_125
+  - first:
+      213: 4474146528885386184
+    second: Ui_botao_spritesheet2_126
+  - first:
+      213: -3407898510862492398
+    second: Ui_botao_spritesheet2_127
+  - first:
+      213: 4186014406871723521
+    second: Ui_botao_spritesheet2_128
+  - first:
+      213: 3506730345135261663
+    second: Ui_botao_spritesheet2_129
+  - first:
+      213: 6622171749729028567
+    second: Ui_botao_spritesheet2_130
+  - first:
+      213: 7184543880369778153
+    second: Ui_botao_spritesheet2_131
+  - first:
+      213: -1216243075088724768
+    second: Ui_botao_spritesheet2_132
+  - first:
+      213: -1319069332032572986
+    second: Ui_botao_spritesheet2_133
+  - first:
+      213: 8167643294918344612
+    second: Ui_botao_spritesheet2_134
+  - first:
+      213: 4712097183482938394
+    second: Ui_botao_spritesheet2_135
+  - first:
+      213: -8082042706058362146
+    second: Ui_botao_spritesheet2_136
+  - first:
+      213: -6760877969347094204
+    second: Ui_botao_spritesheet2_137
+  - first:
+      213: -3171792621546000389
+    second: Ui_botao_spritesheet2_138
+  - first:
+      213: -8139720702189257717
+    second: Ui_botao_spritesheet2_139
+  - first:
+      213: -5743665846179943655
+    second: Ui_botao_spritesheet2_140
+  - first:
+      213: -8866532076744673422
+    second: Ui_botao_spritesheet2_141
+  - first:
+      213: 83393349410647051
+    second: Ui_botao_spritesheet2_142
+  - first:
+      213: -676197696132869112
+    second: Ui_botao_spritesheet2_143
+  - first:
+      213: 6066954797582606793
+    second: Ui_botao_spritesheet2_144
+  - first:
+      213: 4356788591545224585
+    second: Ui_botao_spritesheet2_145
+  - first:
+      213: 6125461812240145369
+    second: Ui_botao_spritesheet2_146
+  - first:
+      213: -6342432957402093105
+    second: Ui_botao_spritesheet2_147
+  - first:
+      213: 7542788558398481293
+    second: Ui_botao_spritesheet2_148
+  - first:
+      213: 2666445163376174686
+    second: Ui_botao_spritesheet2_149
+  - first:
+      213: -3103995443491735738
+    second: Ui_botao_spritesheet2_150
+  - first:
+      213: -4692475829153504444
+    second: Ui_botao_spritesheet2_151
+  - first:
+      213: 295656076728531790
+    second: Ui_botao_spritesheet2_152
+  - first:
+      213: 2752089507734070263
+    second: Ui_botao_spritesheet2_153
+  - first:
+      213: -2693017760882421242
+    second: Ui_botao_spritesheet2_154
+  - first:
+      213: 5645823459167245605
+    second: Ui_botao_spritesheet2_155
+  - first:
+      213: -8200049484287719706
+    second: Ui_botao_spritesheet2_156
+  - first:
+      213: -700857153395742982
+    second: Ui_botao_spritesheet2_157
+  - first:
+      213: 5469158753797487148
+    second: Ui_botao_spritesheet2_158
+  - first:
+      213: 6831841811477732375
+    second: Ui_botao_spritesheet2_159
+  - first:
+      213: 1866525083826026797
+    second: Ui_botao_spritesheet2_160
+  - first:
+      213: -8423857063120650842
+    second: Ui_botao_spritesheet2_161
+  - first:
+      213: 1335871634769293219
+    second: Ui_botao_spritesheet2_162
+  - first:
+      213: 3336819456924296391
+    second: Ui_botao_spritesheet2_163
+  - first:
+      213: -7377241856645507146
+    second: Ui_botao_spritesheet2_164
+  - first:
+      213: 758637442324024863
+    second: Ui_botao_spritesheet2_165
+  - first:
+      213: 7328759297886051764
+    second: Ui_botao_spritesheet2_166
+  - first:
+      213: -8993039133545450149
+    second: Ui_botao_spritesheet2_167
+  - first:
+      213: -5431579122347223942
+    second: Ui_botao_spritesheet2_168
+  - first:
+      213: -7585007991856738975
+    second: Ui_botao_spritesheet2_169
+  - first:
+      213: 7715708648434302329
+    second: Ui_botao_spritesheet2_170
+  - first:
+      213: -5297464199060689826
+    second: Ui_botao_spritesheet2_171
+  - first:
+      213: 1760832821191853884
+    second: Ui_botao_spritesheet2_172
+  - first:
+      213: -881883528038658006
+    second: Ui_botao_spritesheet2_173
+  - first:
+      213: 7874404988613143076
+    second: Ui_botao_spritesheet2_174
+  - first:
+      213: -3164029517007650920
+    second: Ui_botao_spritesheet2_175
+  - first:
+      213: 435290202618516663
+    second: Ui_botao_spritesheet2_176
+  - first:
+      213: -4270918443229640184
+    second: Ui_botao_spritesheet2_177
+  - first:
+      213: 8500549920002031370
+    second: Ui_botao_spritesheet2_178
+  - first:
+      213: -3874895327876856449
+    second: Ui_botao_spritesheet2_179
+  - first:
+      213: 712152257722127496
+    second: Ui_botao_spritesheet2_180
+  - first:
+      213: -4259587163953780360
+    second: Ui_botao_spritesheet2_181
+  - first:
+      213: 297805456078926920
+    second: Ui_botao_spritesheet2_182
+  - first:
+      213: 1887412369967248291
+    second: Ui_botao_spritesheet2_183
+  - first:
+      213: -4710080465119507352
+    second: Ui_botao_spritesheet2_184
+  - first:
+      213: -8142646622616764612
+    second: Ui_botao_spritesheet2_185
+  - first:
+      213: -38855285152104335
+    second: Ui_botao_spritesheet2_186
+  - first:
+      213: 3447178258134414743
+    second: Ui_botao_spritesheet2_187
+  - first:
+      213: 4146559699561148803
+    second: Ui_botao_spritesheet2_188
+  - first:
+      213: -7644024206741098566
+    second: Ui_botao_spritesheet2_189
+  - first:
+      213: 4711836530445654837
+    second: Ui_botao_spritesheet2_190
+  - first:
+      213: -7336335993779921453
+    second: Ui_botao_spritesheet2_191
+  - first:
+      213: 7993390442194633302
+    second: Ui_botao_spritesheet2_192
+  - first:
+      213: 4394747149475194946
+    second: Ui_botao_spritesheet2_193
+  - first:
+      213: 3387594132700758048
+    second: Ui_botao_spritesheet2_194
+  - first:
+      213: 6069674891039731359
+    second: Ui_botao_spritesheet2_195
+  - first:
+      213: 7441378665365224822
+    second: Ui_botao_spritesheet2_196
+  - first:
+      213: 1896335086277859645
+    second: Ui_botao_spritesheet2_197
+  - first:
+      213: 2076723632432520176
+    second: Ui_botao_spritesheet2_198
+  - first:
+      213: -6438349617693273687
+    second: Ui_botao_spritesheet2_199
+  - first:
+      213: -182604868812877521
+    second: Ui_botao_spritesheet2_200
+  - first:
+      213: 2836662538069767242
+    second: Ui_botao_spritesheet2_201
+  - first:
+      213: 2798241134280672494
+    second: Ui_botao_spritesheet2_202
+  - first:
+      213: -7700880447177854392
+    second: Ui_botao_spritesheet2_203
+  - first:
+      213: 7066829002709092934
+    second: Ui_botao_spritesheet2_204
+  - first:
+      213: -1847783176580805222
+    second: Ui_botao_spritesheet2_205
+  - first:
+      213: 8023819263523012712
+    second: Ui_botao_spritesheet2_206
+  - first:
+      213: -8134812572122501610
+    second: Ui_botao_spritesheet2_207
+  - first:
+      213: 7211951855222089777
+    second: Ui_botao_spritesheet2_208
+  - first:
+      213: -2396688022551943292
+    second: Ui_botao_spritesheet2_209
+  - first:
+      213: 4186940754708788396
+    second: Ui_botao_spritesheet2_210
+  - first:
+      213: -2839177610330262770
+    second: Ui_botao_spritesheet2_211
+  - first:
+      213: 7267595153470001474
+    second: Ui_botao_spritesheet2_212
+  - first:
+      213: 4773178585118460018
+    second: Ui_botao_spritesheet2_213
+  - first:
+      213: -7981333547225525727
+    second: Ui_botao_spritesheet2_214
+  - first:
+      213: -1599786802479258027
+    second: Ui_botao_spritesheet2_215
+  - first:
+      213: 3627040985838874609
+    second: Ui_botao_spritesheet2_216
+  - first:
+      213: -5432672385045165998
+    second: Ui_botao_spritesheet2_217
+  - first:
+      213: -5113377845497652084
+    second: Ui_botao_spritesheet2_218
+  - first:
+      213: -5161616312011254840
+    second: Ui_botao_spritesheet2_219
+  - first:
+      213: -2524675350782393101
+    second: Ui_botao_spritesheet2_220
+  - first:
+      213: 2266402972117999998
+    second: Ui_botao_spritesheet2_221
+  - first:
+      213: -3929176938542193336
+    second: Ui_botao_spritesheet2_222
+  - first:
+      213: 2700408928885068330
+    second: Ui_botao_spritesheet2_223
+  - first:
+      213: 3161577673080318843
+    second: Ui_botao_spritesheet2_224
+  - first:
+      213: 3906124934558445290
+    second: Ui_botao_spritesheet2_225
+  - first:
+      213: 3867777009674917323
+    second: Ui_botao_spritesheet2_226
+  - first:
+      213: -4274782303837774583
+    second: Ui_botao_spritesheet2_227
+  - first:
+      213: 7882802902356308752
+    second: Ui_botao_spritesheet2_228
+  - first:
+      213: 6474069114611945315
+    second: Ui_botao_spritesheet2_229
+  - first:
+      213: -7778934219156903219
+    second: Ui_botao_spritesheet2_230
+  - first:
+      213: -7438028408238346582
+    second: Ui_botao_spritesheet2_231
+  - first:
+      213: -240739086211339177
+    second: Ui_botao_spritesheet2_232
+  - first:
+      213: -5216208999319611782
+    second: Ui_botao_spritesheet2_233
+  - first:
+      213: -7577473674763449908
+    second: Ui_botao_spritesheet2_234
+  - first:
+      213: 7636725485178419433
+    second: Ui_botao_spritesheet2_235
+  - first:
+      213: 574183596373563431
+    second: Ui_botao_spritesheet2_236
+  - first:
+      213: -1657308291436706951
+    second: Ui_botao_spritesheet2_237
+  - first:
+      213: -3239510815026728779
+    second: Ui_botao_spritesheet2_238
+  - first:
+      213: -7505873595616507778
+    second: Ui_botao_spritesheet2_239
+  - first:
+      213: 4558338792590083630
+    second: Ui_botao_spritesheet2_240
+  - first:
+      213: -7659095944262524041
+    second: Ui_botao_spritesheet2_241
+  - first:
+      213: 6713771352795451503
+    second: Ui_botao_spritesheet2_242
+  - first:
+      213: 8189706493793718628
+    second: Ui_botao_spritesheet2_243
+  - first:
+      213: 579700875278217092
+    second: Ui_botao_spritesheet2_244
+  - first:
+      213: 2645964937895971182
+    second: Ui_botao_spritesheet2_245
+  - first:
+      213: -8033976581665373858
+    second: Ui_botao_spritesheet2_246
+  - first:
+      213: 5470731763952201665
+    second: Ui_botao_spritesheet2_247
+  - first:
+      213: 6098330588985130539
+    second: Ui_botao_spritesheet2_248
+  - first:
+      213: 2704453794034198547
+    second: Ui_botao_spritesheet2_249
+  - first:
+      213: -6366068096388720273
+    second: Ui_botao_spritesheet2_250
+  - first:
+      213: -1044411508942307393
+    second: Ui_botao_spritesheet2_251
+  - first:
+      213: -6336151762637715326
+    second: Ui_botao_spritesheet2_252
+  - first:
+      213: -770172541887011455
+    second: Ui_botao_spritesheet2_253
+  - first:
+      213: -5302363987010825845
+    second: Ui_botao_spritesheet2_254
+  - first:
+      213: -3427369137886737124
+    second: Ui_botao_spritesheet2_255
+  - first:
+      213: -2093614512505688042
+    second: Ui_botao_spritesheet2_256
+  - first:
+      213: -2007502321061564430
+    second: Ui_botao_spritesheet2_257
+  - first:
+      213: -4155939285544296872
+    second: Ui_botao_spritesheet2_258
+  - first:
+      213: -2833753222199925883
+    second: Ui_botao_spritesheet2_259
+  - first:
+      213: -1341546099965819621
+    second: Ui_botao_spritesheet2_260
+  - first:
+      213: 2486454436677530291
+    second: Ui_botao_spritesheet2_261
+  - first:
+      213: -8823649942324955315
+    second: Ui_botao_spritesheet2_262
+  - first:
+      213: -3492530028898574361
+    second: Ui_botao_spritesheet2_263
+  - first:
+      213: -3942334089861000207
+    second: Ui_botao_spritesheet2_264
+  - first:
+      213: 3327954868016007677
+    second: Ui_botao_spritesheet2_265
+  - first:
+      213: -5914378324712702717
+    second: Ui_botao_spritesheet2_266
+  - first:
+      213: -4678164288871232549
+    second: Ui_botao_spritesheet2_267
+  - first:
+      213: 1909563523641632684
+    second: Ui_botao_spritesheet2_268
+  - first:
+      213: -1588865738496355208
+    second: Ui_botao_spritesheet2_269
+  - first:
+      213: -3914855720180452378
+    second: Ui_botao_spritesheet2_270
+  - first:
+      213: 3531949823615489270
+    second: Ui_botao_spritesheet2_271
+  - first:
+      213: 4292683058431760068
+    second: Ui_botao_spritesheet2_272
+  - first:
+      213: -6417323784671754663
+    second: Ui_botao_spritesheet2_273
+  - first:
+      213: -4684308159292469780
+    second: Ui_botao_spritesheet2_274
+  - first:
+      213: 5310670142143153215
+    second: Ui_botao_spritesheet2_275
+  - first:
+      213: -882637188371784836
+    second: Ui_botao_spritesheet2_276
+  - first:
+      213: 200956287332227160
+    second: Ui_botao_spritesheet2_277
+  - first:
+      213: 1569249051592710127
+    second: Ui_botao_spritesheet2_278
+  - first:
+      213: 5582076864998866235
+    second: Ui_botao_spritesheet2_279
+  - first:
+      213: -9083246950235762282
+    second: Ui_botao_spritesheet2_280
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 102
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 615
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636fa93aaa7340a20800000000000000
+      internalID: 3027606055528625718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 615
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d54d88dfa5b63850800000000000000
+      internalID: 6356467690937075157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_2
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 615
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1177715afc8960470800000000000000
+      internalID: 8360537775855335185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 615
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128c8b63ef2b58ca0800000000000000
+      internalID: -6015204922373912543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_4
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 615
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c88f9816c78dc00800000000000000
+      internalID: 925626481793076354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_5
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 615
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e68f6a378c4729d0800000000000000
+      internalID: -2799184499702790425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_6
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 615
+        width: 103
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a262cf4c6188260800000000000000
+      internalID: 7099949847849347726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_7
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 615
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a926739a6831dba0800000000000000
+      internalID: -6066005192699663965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_8
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 615
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b244faacade0e410800000000000000
+      internalID: 1504463601400038069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_9
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 615
+        width: 103
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92ac3e41219bfbc0800000000000000
+      internalID: -3748242692623261028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_10
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 615
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4bef7edc6ca2350800000000000000
+      internalID: 5992820841832690891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_11
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 615
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1257ec714340b92e0800000000000000
+      internalID: -2118094577963469535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_12
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 615
+        width: 103
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e382d2d6e069ced00800000000000000
+      internalID: 1003341805702162494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_13
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 615
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ecd9dec27c722ea0800000000000000
+      internalID: -5899015729363428123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_14
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 615
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d87d86f0ae34480800000000000000
+      internalID: -8916025485359084186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_15
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 615
+        width: 103
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d24c17024b7f16c0800000000000000
+      internalID: -4170479206404439342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_16
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 615
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fc8a1d59ae9a2e0800000000000000
+      internalID: -2113900620885209204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_17
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 615
+        width: 103
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689319a4b8e846060800000000000000
+      internalID: 6945833254214777222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_18
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 615
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee714ab4dd0200c60800000000000000
+      internalID: 7782256290925123566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_19
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 615
+        width: 103
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f111ee9f12cb64fe0800000000000000
+      internalID: -1205068996161957601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_20
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 615
+        width: 103
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4edc94063747b80800000000000000
+      internalID: -8397960547746847554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_21
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 615
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c98cf29cc47b9910800000000000000
+      internalID: 1845196894326524355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_22
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 615
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea29942413cc85f0800000000000000
+      internalID: -753012546396935447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_23
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 615
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367636fa04635bb60800000000000000
+      internalID: 7761169184291252067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_24
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 615
+        width: 103
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62f5e2c5a3a19740800000000000000
+      internalID: 5157082980650709615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_25
+      rect:
+        serializedVersion: 2
+        x: 2561
+        y: 615
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ea520e06222c280800000000000000
+      internalID: -9024612903824282053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_26
+      rect:
+        serializedVersion: 2
+        x: 2663
+        y: 615
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0a5d89d971e5c30800000000000000
+      internalID: 4349940255727919332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_27
+      rect:
+        serializedVersion: 2
+        x: 2765
+        y: 615
+        width: 103
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00441a1c2241b3650800000000000000
+      internalID: 6213582250397746176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_28
+      rect:
+        serializedVersion: 2
+        x: 2868
+        y: 615
+        width: 103
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826ba8c1ee95bbfe0800000000000000
+      internalID: -1172244398783941080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_29
+      rect:
+        serializedVersion: 2
+        x: 2971
+        y: 615
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603d468084ce88c50800000000000000
+      internalID: 6667839042444645126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_30
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 615
+        width: 103
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef501630c891be630800000000000000
+      internalID: 3957284786717918718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_31
+      rect:
+        serializedVersion: 2
+        x: 3176
+        y: 615
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddcc65c34044b9a0800000000000000
+      internalID: -6218274525672583716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_32
+      rect:
+        serializedVersion: 2
+        x: 3277
+        y: 615
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f487df7b0af7430800000000000000
+      internalID: 3782918924106485581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_33
+      rect:
+        serializedVersion: 2
+        x: 3380
+        y: 615
+        width: 103
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded1747eebd839c00800000000000000
+      internalID: 906223801095101933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_34
+      rect:
+        serializedVersion: 2
+        x: 3483
+        y: 615
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fc1438541688ad0800000000000000
+      internalID: -2699801025425846398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_35
+      rect:
+        serializedVersion: 2
+        x: 3585
+        y: 615
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338ecb98af945e110800000000000000
+      internalID: 1289518208713025587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_36
+      rect:
+        serializedVersion: 2
+        x: 3687
+        y: 615
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb92321a9d9ccd870800000000000000
+      internalID: 8709057715976219068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_37
+      rect:
+        serializedVersion: 2
+        x: 3790
+        y: 615
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29adf237f09387240800000000000000
+      internalID: 4789640942228331154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_38
+      rect:
+        serializedVersion: 2
+        x: 3891
+        y: 615
+        width: 104
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26acceebb5b21bac0800000000000000
+      internalID: -3841241334125114782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_39
+      rect:
+        serializedVersion: 2
+        x: 3995
+        y: 615
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad09a34c5b1b2b10800000000000000
+      internalID: 1957688546108706211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d6d70ca5411e140800000000000000
+      internalID: 4747097862234271025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_41
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da52a9beceb528ba0800000000000000
+      internalID: -6088202673128331859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_42
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6126de0a2a028c10800000000000000
+      internalID: 2054215555788185963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_43
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f689a54c3578fc5d0800000000000000
+      internalID: -3040062429605488529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_44
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5217aaec63bb7b980800000000000000
+      internalID: -8523137925705469659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_45
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1d61c989d505430800000000000000
+      internalID: 3769615798144258559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_46
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe16e679a725a1a80800000000000000
+      internalID: -8495387060600938001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_47
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365d4b8f3cae2cb20800000000000000
+      internalID: 3153340816524891491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_48
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672908f43bd8b37a0800000000000000
+      internalID: -6396363044477169034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_49
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04cc50dcfcdec8560800000000000000
+      internalID: 7317484971323935808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_50
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638a5a14d38928030800000000000000
+      internalID: 3495523649654728758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_51
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8cbb66061e853770800000000000000
+      internalID: 8589928089527237773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_52
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c94d93e416052e40800000000000000
+      internalID: 5630913595884521925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_53
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ecf63530415e09d0800000000000000
+      internalID: -2806216181592687385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_54
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344d99fd79a0cb090800000000000000
+      internalID: -8017521589218585533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_55
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d44ab64c9f47e30800000000000000
+      internalID: 4500496549664804181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_56
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10a7c681b18658d0800000000000000
+      internalID: -2857954314049576934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_57
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c124127db1001c740800000000000000
+      internalID: 5170413966771438108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_58
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479b0dc36cf583160800000000000000
+      internalID: 7005454525403281780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_59
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ed9c2b2cd43d550800000000000000
+      internalID: 6184372211928391173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_60
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25712d07558efd10800000000000000
+      internalID: 2161311480113362218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_61
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b71e9c0444557190800000000000000
+      internalID: -7965367714688657480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_62
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2744bee2769ce3810800000000000000
+      internalID: 1747055150472316018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_63
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9941ccf4500a86b50800000000000000
+      internalID: 6586690399703405721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_64
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1400f40f881e5be0800000000000000
+      internalID: -1486723824443456483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_65
+      rect:
+        serializedVersion: 2
+        x: 2561
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585738d0c479c2ce0800000000000000
+      internalID: -1428600628883262075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_66
+      rect:
+        serializedVersion: 2
+        x: 2663
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90daceb07014085e0800000000000000
+      internalID: -1909454743484453623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_67
+      rect:
+        serializedVersion: 2
+        x: 2765
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa9f19fcfbd4de20800000000000000
+      internalID: 3374563900365183736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_68
+      rect:
+        serializedVersion: 2
+        x: 2868
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81aa4f9aedd70840800000000000000
+      internalID: 5190361095332340111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_69
+      rect:
+        serializedVersion: 2
+        x: 2971
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d401d25c749f340f0800000000000000
+      internalID: -1133788594521173939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_70
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2afb93e5239b9d0800000000000000
+      internalID: -2758117916510543133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_71
+      rect:
+        serializedVersion: 2
+        x: 3176
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57e86fc3febcdc50800000000000000
+      internalID: 6691433100731803482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_72
+      rect:
+        serializedVersion: 2
+        x: 3277
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c91142e1f046530800000000000000
+      internalID: 3847216603809815632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_73
+      rect:
+        serializedVersion: 2
+        x: 3380
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbb930e297621230800000000000000
+      internalID: 3608060132001954805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_74
+      rect:
+        serializedVersion: 2
+        x: 3483
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f19f082bdcedac0800000000000000
+      internalID: -3828396466666659996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_75
+      rect:
+        serializedVersion: 2
+        x: 3585
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae98927a037fb1a30800000000000000
+      internalID: 4187212066906016234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_76
+      rect:
+        serializedVersion: 2
+        x: 3687
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed5c4ddf7cbb19a0800000000000000
+      internalID: -6261203599568904730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_77
+      rect:
+        serializedVersion: 2
+        x: 3790
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d0f4aa127a6eca0800000000000000
+      internalID: -5987914891509428943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_78
+      rect:
+        serializedVersion: 2
+        x: 3891
+        y: 513
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1411e46581ce960800000000000000
+      internalID: 7632502227442155947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_79
+      rect:
+        serializedVersion: 2
+        x: 3995
+        y: 513
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755917950abd8ca30800000000000000
+      internalID: 4235876931283817815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28823f71f06054810800000000000000
+      internalID: 1748810692199393410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_81
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add5a5e7437e7bc10800000000000000
+      internalID: 2069376766444199386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_82
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e25861e6e569560800000000000000
+      internalID: 7320142071254560351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_83
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0854cd410c713fe0800000000000000
+      internalID: -1211050479744428021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_84
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed6e4ab4204850c0800000000000000
+      internalID: -4586845693988147741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_85
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32193dd31386d0370800000000000000
+      internalID: 8290397049758912803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_86
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695a02e96db367be0800000000000000
+      internalID: -1479929634582649450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_87
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c917ac61f844caa0800000000000000
+      internalID: -6141703790079305274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_88
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0a9525e808aa0a0800000000000000
+      internalID: -6869536932844953358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_89
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6752052045638d480800000000000000
+      internalID: -8874283331289602698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_90
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2844826a854282cb0800000000000000
+      internalID: -4888617432347294590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_91
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7835d7a116c0e4850800000000000000
+      internalID: 6363036934716871559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_92
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2613e5bfdbff8c910800000000000000
+      internalID: 1858016037721485666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_93
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebaa9c5901896470800000000000000
+      internalID: 8388377658162588646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_94
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d95c2e32cee8f770800000000000000
+      internalID: 8644922002771827160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_95
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31351fc859762500800000000000000
+      internalID: 371117441643000127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_96
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25f788c1ac1fce20800000000000000
+      internalID: 3372946127103456555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_97
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c853a9e959defdac0800000000000000
+      internalID: -3828079931374815860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_98
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925a98278c6bde7b0800000000000000
+      internalID: -5193293823256976087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_99
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e959f41c97563eae0800000000000000
+      internalID: -1521260675512429154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_100
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdc9130065d1d6e0800000000000000
+      internalID: -1814434566507999749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_101
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d14398d9f673910800000000000000
+      internalID: 1817043697069727122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_102
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1477ed299fb70f0800000000000000
+      internalID: -1118025673278537285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_103
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e214ff15470156ca0800000000000000
+      internalID: -6024390834760236754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_104
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe0bdb11923b06e0800000000000000
+      internalID: -1870345621423321355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_105
+      rect:
+        serializedVersion: 2
+        x: 2561
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ecb19fab34475f0800000000000000
+      internalID: -759907966796444024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_106
+      rect:
+        serializedVersion: 2
+        x: 2663
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08edb49af8ca58d0800000000000000
+      internalID: -2856750035050305524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_107
+      rect:
+        serializedVersion: 2
+        x: 2765
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30873c3d900c1f430800000000000000
+      internalID: 3815041507799562243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_108
+      rect:
+        serializedVersion: 2
+        x: 2868
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732e53cb4b819a0f0800000000000000
+      internalID: -1105325069011918281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_109
+      rect:
+        serializedVersion: 2
+        x: 2971
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b49e090391952f0800000000000000
+      internalID: -983727347223409904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_110
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bac220d8b8e22a0800000000000000
+      internalID: -6760312552893404402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_111
+      rect:
+        serializedVersion: 2
+        x: 3176
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5d3769e20062c80800000000000000
+      internalID: -8347984659191966299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_112
+      rect:
+        serializedVersion: 2
+        x: 3277
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde20d849bb88ba20800000000000000
+      internalID: 3078363973214547675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_113
+      rect:
+        serializedVersion: 2
+        x: 3380
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d27333e9e333bbf0800000000000000
+      internalID: -309846869726235947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_114
+      rect:
+        serializedVersion: 2
+        x: 3483
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008e438b1bdd30bf0800000000000000
+      internalID: -359199789890082816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_115
+      rect:
+        serializedVersion: 2
+        x: 3585
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c888bfc007bb0d870800000000000000
+      internalID: 8705664169635711116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_116
+      rect:
+        serializedVersion: 2
+        x: 3687
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b443cb81d2d47cd90800000000000000
+      internalID: -7077603433305590709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_117
+      rect:
+        serializedVersion: 2
+        x: 3790
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209d0b42dc9c3a410800000000000000
+      internalID: 1487254184883443970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_118
+      rect:
+        serializedVersion: 2
+        x: 3891
+        y: 411
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15686c94e9179d50800000000000000
+      internalID: 6743887436677932317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_119
+      rect:
+        serializedVersion: 2
+        x: 3995
+        y: 411
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312d0cc606b428ec0800000000000000
+      internalID: -3566205077410491885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea783f49781671970800000000000000
+      internalID: 8725550038001092526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_121
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98485268c8a173ee0800000000000000
+      internalID: -1281526378115267447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_122
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931dbbbfd5c7edb10800000000000000
+      internalID: 2008179226951012665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_123
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4027893ed056d5fe0800000000000000
+      internalID: -1198690815483284988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_124
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73305fb144a3651f0800000000000000
+      internalID: -1056592998370573513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_125
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f516de528c02e1f0800000000000000
+      internalID: -1017236811755940364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_126
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cba24f109c571e30800000000000000
+      internalID: 4474146528885386184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_127
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d55753c56b4b0d0800000000000000
+      internalID: -3407898510862492398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_128
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ea142bce5b71a30800000000000000
+      internalID: 4186014406871723521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_129
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7ced06ba86aa030800000000000000
+      internalID: 3506730345135261663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_130
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9c930ee1ea6eb50800000000000000
+      internalID: 6622171749729028567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_131
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eda5a60890a4b360800000000000000
+      internalID: 7184543880369778153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_132
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecceccfd590f1fe0800000000000000
+      internalID: -1216243075088724768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_133
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c136166e69b1bde0800000000000000
+      internalID: -1319069332032572986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_134
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af75bd7d4c495170800000000000000
+      internalID: 8167643294918344612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_135
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a148e903c6bb46140800000000000000
+      internalID: 4712097183482938394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_136
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2cad5baf0d6df80800000000000000
+      internalID: -8082042706058362146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_137
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4495d4bbe498c22a0800000000000000
+      internalID: -6760877969347094204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_138
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffab836a678bf3d0800000000000000
+      internalID: -3171792621546000389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_139
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cbd1fb527e90f80800000000000000
+      internalID: -8139720702189257717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_140
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ba6e918566a40b0800000000000000
+      internalID: -5743665846179943655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_141
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277f6089d00c3f480800000000000000
+      internalID: -8866532076744673422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_142
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c60483fc5482100800000000000000
+      internalID: 83393349410647051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_143
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804101c27c9ad96f0800000000000000
+      internalID: -676197696132869112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_144
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1634a8e37223450800000000000000
+      internalID: 6066954797582606793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_145
+      rect:
+        serializedVersion: 2
+        x: 2561
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d0788042c667c30800000000000000
+      internalID: 4356788591545224585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_146
+      rect:
+        serializedVersion: 2
+        x: 2663
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db5bcb6013020550800000000000000
+      internalID: 6125461812240145369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_147
+      rect:
+        serializedVersion: 2
+        x: 2765
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9615234d62bf7a0800000000000000
+      internalID: -6342432957402093105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_148
+      rect:
+        serializedVersion: 2
+        x: 2868
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83e83ffa3e5da860800000000000000
+      internalID: 7542788558398481293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_149
+      rect:
+        serializedVersion: 2
+        x: 2971
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e566818afbd110520800000000000000
+      internalID: 2666445163376174686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_150
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6477e3ef6946ce4d0800000000000000
+      internalID: -3103995443491735738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_151
+      rect:
+        serializedVersion: 2
+        x: 3176
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443e23e581af0eeb0800000000000000
+      internalID: -4692475829153504444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_152
+      rect:
+        serializedVersion: 2
+        x: 3277
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4bf615a2a16a1400800000000000000
+      internalID: 295656076728531790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_153
+      rect:
+        serializedVersion: 2
+        x: 3381
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3a19a73d2613620800000000000000
+      internalID: 2752089507734070263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_154
+      rect:
+        serializedVersion: 2
+        x: 3483
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60219cc5d9a70aad0800000000000000
+      internalID: -2693017760882421242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_155
+      rect:
+        serializedVersion: 2
+        x: 3585
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5251b34f58ef95e40800000000000000
+      internalID: 5645823459167245605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_156
+      rect:
+        serializedVersion: 2
+        x: 3687
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6c7649072933e80800000000000000
+      internalID: -8200049484287719706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_157
+      rect:
+        serializedVersion: 2
+        x: 3790
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af62e8dd12e0646f0800000000000000
+      internalID: -700857153395742982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_158
+      rect:
+        serializedVersion: 2
+        x: 3891
+        y: 309
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a3154e8ea56eb40800000000000000
+      internalID: 5469158753797487148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_159
+      rect:
+        serializedVersion: 2
+        x: 3995
+        y: 309
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c9ace4ee39fce50800000000000000
+      internalID: 6831841811477732375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d297ec9acaa37e910800000000000000
+      internalID: 1866525083826026797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_161
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad3702f1a2781b80800000000000000
+      internalID: -8423857063120650842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_162
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afa1ff8c28f98210800000000000000
+      internalID: 1335871634769293219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_163
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4a599ed93ce4e20800000000000000
+      internalID: 3336819456924296391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_164
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b750802e95ce9990800000000000000
+      internalID: -7377241856645507146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_165
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ec80ffbb8378a00800000000000000
+      internalID: 758637442324024863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_166
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdd6d280cbf4b560800000000000000
+      internalID: 7328759297886051764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_167
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5536d12e8e423380800000000000000
+      internalID: -8993039133545450149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_168
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74d013e0972f94b0800000000000000
+      internalID: -5431579122347223942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_169
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d41e22b63acb690800000000000000
+      internalID: -7585007991856738975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_170
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97df55cd224b31b60800000000000000
+      internalID: 7715708648434302329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_171
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c63acc060ab76b0800000000000000
+      internalID: -5297464199060689826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_172
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c374dff1f1cbf6810800000000000000
+      internalID: 1760832821191853884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_173
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20dcf98a9be2c3f0800000000000000
+      internalID: -881883528038658006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_174
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42aa9d3ed91874d60800000000000000
+      internalID: 7874404988613143076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_175
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f78e30beb1714d0800000000000000
+      internalID: -3164029517007650920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_176
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4d84d02267a0600800000000000000
+      internalID: 435290202618516663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_177
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a02aedd46aab4c0800000000000000
+      internalID: -4270918443229640184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_178
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f32394d1508f570800000000000000
+      internalID: 8500549920002031370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_179
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f754418ba3b993ac0800000000000000
+      internalID: -3874895327876856449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_180
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884158b84b212e900800000000000000
+      internalID: 712152257722127496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_181
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879a8baea08e2e4c0800000000000000
+      internalID: -4259587163953780360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_182
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844f1c50c74022400800000000000000
+      internalID: 297805456078926920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_183
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a37390fc8f613a10800000000000000
+      internalID: 1887412369967248291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_184
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c8b05a5ce62aeb0800000000000000
+      internalID: -4710080465119507352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_185
+      rect:
+        serializedVersion: 2
+        x: 2561
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fb46fc9028ffe80800000000000000
+      internalID: -8142646622616764612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_186
+      rect:
+        serializedVersion: 2
+        x: 2663
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170ccd2f255f57ff0800000000000000
+      internalID: -38855285152104335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_187
+      rect:
+        serializedVersion: 2
+        x: 2765
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7953d81ac56d6df20800000000000000
+      internalID: 3447178258134414743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_188
+      rect:
+        serializedVersion: 2
+        x: 2869
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381fa4cc31a8b8930800000000000000
+      internalID: 4146559699561148803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_189
+      rect:
+        serializedVersion: 2
+        x: 2971
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfa5b6db78fae590800000000000000
+      internalID: -7644024206741098566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_190
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b1cec2c5ec36140800000000000000
+      internalID: 4711836530445654837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_191
+      rect:
+        serializedVersion: 2
+        x: 3176
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddd5d18849103a90800000000000000
+      internalID: -7336335993779921453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_192
+      rect:
+        serializedVersion: 2
+        x: 3277
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6528302a14a3eee60800000000000000
+      internalID: 7993390442194633302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_193
+      rect:
+        serializedVersion: 2
+        x: 3381
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24821228f374dfc30800000000000000
+      internalID: 4394747149475194946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_194
+      rect:
+        serializedVersion: 2
+        x: 3483
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02083da5ae6230f20800000000000000
+      internalID: 3387594132700758048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_195
+      rect:
+        serializedVersion: 2
+        x: 3585
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ee786a721db3450800000000000000
+      internalID: 6069674891039731359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_196
+      rect:
+        serializedVersion: 2
+        x: 3687
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67db3445876154760800000000000000
+      internalID: 7441378665365224822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_197
+      rect:
+        serializedVersion: 2
+        x: 3789
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3993b8b6b2215a10800000000000000
+      internalID: 1896335086277859645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_198
+      rect:
+        serializedVersion: 2
+        x: 3891
+        y: 207
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb9cc7042102dc10800000000000000
+      internalID: 2076723632432520176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_199
+      rect:
+        serializedVersion: 2
+        x: 3995
+        y: 207
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1de91722366a6a0800000000000000
+      internalID: -6438349617693273687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_200
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21d62cd6d1477df0800000000000000
+      internalID: -182604868812877521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_201
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a447e419c89dd5720800000000000000
+      internalID: 2836662538069767242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_202
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee48fa46c7955d620800000000000000
+      internalID: 2798241134280672494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_203
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8427638c80af02590800000000000000
+      internalID: -7700880447177854392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_204
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a47ea498b621260800000000000000
+      internalID: 7066829002709092934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_205
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d45f9adfa5b56e0800000000000000
+      internalID: -1847783176580805222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_206
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860c930bb155a5f60800000000000000
+      internalID: 8023819263523012712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_207
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ea144d0175b1f80800000000000000
+      internalID: -8134812572122501610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_208
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1386bb37000061460800000000000000
+      internalID: 7211951855222089777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_209
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487ab5211f04dbed0800000000000000
+      internalID: -2396688022551943292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_210
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4f50cde600b1a30800000000000000
+      internalID: 4186940754708788396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_211
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03b50a81073998d0800000000000000
+      internalID: -2839177610330262770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_212
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2411ee5694fabd460800000000000000
+      internalID: 7267595153470001474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_213
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278cc7f32acbd3240800000000000000
+      internalID: 4773178585118460018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_214
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122d6bbfc6b9c3190800000000000000
+      internalID: -7981333547225525727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_215
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556add1116a6cc9e0800000000000000
+      internalID: -1599786802479258027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_216
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff65ba4f86d55230800000000000000
+      internalID: 3627040985838874609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_217
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2580f44df354b94b0800000000000000
+      internalID: -5432672385045165998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_218
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c92ccf0f1a909b0800000000000000
+      internalID: -5113377845497652084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_219
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c315b7cf414e58b0800000000000000
+      internalID: -5161616312011254840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_220
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f44e6f052d86fcd0800000000000000
+      internalID: -2524675350782393101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_221
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71abf6ce71e37f10800000000000000
+      internalID: 2266402972117999998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_222
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845298e5462c879c0800000000000000
+      internalID: -3929176938542193336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_223
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22dc7a0d97c97520800000000000000
+      internalID: 2700408928885068330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_224
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b22c5942e20eb20800000000000000
+      internalID: 3161577673080318843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_225
+      rect:
+        serializedVersion: 2
+        x: 2561
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeee6a4bee7553630800000000000000
+      internalID: 3906124934558445290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_226
+      rect:
+        serializedVersion: 2
+        x: 2663
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5981ca2ba1da530800000000000000
+      internalID: 3867777009674917323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_227
+      rect:
+        serializedVersion: 2
+        x: 2765
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d9f97b42ceca4c0800000000000000
+      internalID: -4274782303837774583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_228
+      rect:
+        serializedVersion: 2
+        x: 2869
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013bd5d8977556d60800000000000000
+      internalID: 7882802902356308752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_229
+      rect:
+        serializedVersion: 2
+        x: 2971
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fc5c30f8388d950800000000000000
+      internalID: 6474069114611945315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_230
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcaa500da8cab0490800000000000000
+      internalID: -7778934219156903219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_231
+      rect:
+        serializedVersion: 2
+        x: 3176
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae60b13290d6c890800000000000000
+      internalID: -7438028408238346582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_232
+      rect:
+        serializedVersion: 2
+        x: 3277
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c22da9319b8acf0800000000000000
+      internalID: -240739086211339177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_233
+      rect:
+        serializedVersion: 2
+        x: 3381
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76db514d8d4c97b0800000000000000
+      internalID: -5216208999319611782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_234
+      rect:
+        serializedVersion: 2
+        x: 3483
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9c9d807d767d690800000000000000
+      internalID: -7577473674763449908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_235
+      rect:
+        serializedVersion: 2
+        x: 3585
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e87b3f1e591bf960800000000000000
+      internalID: 7636725485178419433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_236
+      rect:
+        serializedVersion: 2
+        x: 3687
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728d3b150f8e7f700800000000000000
+      internalID: 574183596373563431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_237
+      rect:
+        serializedVersion: 2
+        x: 3789
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9730b95c3ee0009e0800000000000000
+      internalID: -1657308291436706951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_238
+      rect:
+        serializedVersion: 2
+        x: 3891
+        y: 105
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0bb40d312fa03d0800000000000000
+      internalID: -3239510815026728779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_239
+      rect:
+        serializedVersion: 2
+        x: 3995
+        y: 105
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e784b4c8bb7c5d790800000000000000
+      internalID: -7505873595616507778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2607321bf8724f30800000000000000
+      internalID: 4558338792590083630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_241
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773e89d71dc65b590800000000000000
+      internalID: -7659095944262524041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_242
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60119a697b1c2d50800000000000000
+      internalID: 6713771352795451503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_243
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461d8494aaea7a170800000000000000
+      internalID: 8189706493793718628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_244
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48fe0faefd28b0800800000000000000
+      internalID: 579700875278217092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_245
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e698d63971b58b420800000000000000
+      internalID: 2645964937895971182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_246
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5147046dd4918090800000000000000
+      internalID: -8033976581665373858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_247
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf21dbdd81fbeb40800000000000000
+      internalID: 5470731763952201665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_248
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e7b5f3c5f91a450800000000000000
+      internalID: 6098330588985130539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_249
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318add89566288520800000000000000
+      internalID: 2704453794034198547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_250
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f699dc29bce27a7a0800000000000000
+      internalID: -6366068096388720273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_251
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbff92224418181f0800000000000000
+      internalID: -1044411508942307393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_252
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2888301da877118a0800000000000000
+      internalID: -6336151762637715326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_253
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185a019572ccf45f0800000000000000
+      internalID: -770172541887011455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_254
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8155640c083a66b0800000000000000
+      internalID: -5302363987010825845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_255
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1dcf169de98f60d0800000000000000
+      internalID: -3427369137886737124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_256
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610fe7d71bcf1f2e0800000000000000
+      internalID: -2093614512505688042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_257
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff6a53764be324e0800000000000000
+      internalID: -2007502321061564430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_258
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e9a092d332356c0800000000000000
+      internalID: -4155939285544296872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_259
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583a7a1557c7ca8d0800000000000000
+      internalID: -2833753222199925883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_260
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b150abd0eeed16de0800000000000000
+      internalID: -1341546099965819621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_261
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2bb58e229a18220800000000000000
+      internalID: 2486454436677530291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_262
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47335d80291c8580800000000000000
+      internalID: -8823649942324955315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_263
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef9d14617a088fc0800000000000000
+      internalID: -3492530028898574361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_264
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f31ceb58040a49c0800000000000000
+      internalID: -3942334089861000207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_265
+      rect:
+        serializedVersion: 2
+        x: 2561
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df940a8f1554f2e20800000000000000
+      internalID: 3327954868016007677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_266
+      rect:
+        serializedVersion: 2
+        x: 2663
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30dba38df38ebeda0800000000000000
+      internalID: -5914378324712702717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_267
+      rect:
+        serializedVersion: 2
+        x: 2765
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb89e08d52d31fb0800000000000000
+      internalID: -4678164288871232549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_268
+      rect:
+        serializedVersion: 2
+        x: 2869
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7e3be48e1208a10800000000000000
+      internalID: 1909563523641632684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_269
+      rect:
+        serializedVersion: 2
+        x: 2971
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874d22d670733f9e0800000000000000
+      internalID: -1588865738496355208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_270
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3fcbbd673aba9c0800000000000000
+      internalID: -3914855720180452378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_271
+      rect:
+        serializedVersion: 2
+        x: 3176
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4da19c6a1040130800000000000000
+      internalID: 3531949823615489270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_272
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6992f7f7ca29b30800000000000000
+      internalID: 4292683058431760068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_273
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95689fda40611f6a0800000000000000
+      internalID: -6417323784671754663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_274
+      rect:
+        serializedVersion: 2
+        x: 3468
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced88e23c8efdfeb0800000000000000
+      internalID: -4684308159292469780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_275
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3447bd6b5a43b940800000000000000
+      internalID: 5310670142143153215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_276
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bdc81572e30c3f0800000000000000
+      internalID: -882637188371784836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_277
+      rect:
+        serializedVersion: 2
+        x: 3774
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85891d9bda0f9c200800000000000000
+      internalID: 200956287332227160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_278
+      rect:
+        serializedVersion: 2
+        x: 3876
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe75d4cb2b717c510800000000000000
+      internalID: 1569249051592710127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_279
+      rect:
+        serializedVersion: 2
+        x: 3978
+        y: 3
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3dfe276555877d40800000000000000
+      internalID: 5582076864998866235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ui_botao_spritesheet2_280
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 4087
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6911c0c1603d1f180800000000000000
+      internalID: -9083246950235762282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 06e856c87f976c94c80544e319f11d51
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
