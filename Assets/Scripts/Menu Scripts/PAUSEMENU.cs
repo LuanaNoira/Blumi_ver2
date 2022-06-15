@@ -8,9 +8,12 @@ public class PAUSEMENU : MonoBehaviour
     public static bool GameisPaused = false;
     public GameObject pauseMenu;
 
+    public static bool slimeLogOn = false;
+
     [SerializeField] private GameObject magicSwitch;
     [SerializeField] private GameObject crosshair;
     [SerializeField] private GameObject abilityUI;
+    [SerializeField] private GameObject slimeLog;
 
     private void Update()
     {
@@ -19,10 +22,20 @@ public class PAUSEMENU : MonoBehaviour
             if(GameisPaused)
             {
                 Resume();
-            }else
+            }
+            else if(slimeLogOn)
+            {
+                Resume();
+            }
+            else
             {
                 Pause();
             }
+        }
+
+        if (slimeLogOn)
+        {
+            SlimeLog();
         }
     }
 
@@ -35,6 +48,8 @@ public class PAUSEMENU : MonoBehaviour
         magicSwitch.GetComponent<MagicSwitching>().enabled = true;
         abilityUI.SetActive(true);
         crosshair.SetActive(true);
+        slimeLogOn = false;
+        slimeLog.SetActive(false);
     }
 
     void Pause()
@@ -42,9 +57,24 @@ public class PAUSEMENU : MonoBehaviour
         pauseMenu.SetActive(true);
         Time.timeScale = 0f;
         GameisPaused = true;
+        Cursor.visible = true;
         magicSwitch.GetComponent<MagicSwitching>().enabled = false;
         abilityUI.SetActive(false);
         crosshair.SetActive(false);
+    }
+
+    public void SlimeLog()
+    {
+        slimeLogOn = true;
+        slimeLog.SetActive(true);
+        pauseMenu.SetActive(false);
+    }
+
+    public void QuitSlimeLog()
+    {
+        slimeLogOn = false;
+        slimeLog.SetActive(false);
+        Pause();
     }
 
     public void QuitGame()
