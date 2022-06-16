@@ -6,7 +6,7 @@ using TMPro;
 public class ClueMenu : MonoBehaviour
 {
     public GameObject popUpBox;
-    public TMP_Text popUpText;
+    [SerializeField] private TMP_Text popUpText;
     [SerializeField] private GameObject abilityUI;
 
     private void Start()

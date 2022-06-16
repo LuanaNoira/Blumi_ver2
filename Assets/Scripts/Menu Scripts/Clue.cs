@@ -38,14 +38,14 @@ public class Clue : MonoBehaviour
     public void ShowPopUp()
     {
         dialogueKey.SetActive(false);
-        ClueMenu pop = GameObject.FindGameObjectWithTag("PopUp").GetComponent<ClueMenu>();
+        ClueMenu pop = GameObject.Find("TextBox").GetComponent<ClueMenu>();
         pop.PopUp(popUp);
     }
 
     public void DontShowPopUp()
     {
         isShowing = false;
-        ClueMenu pop = GameObject.FindGameObjectWithTag("PopUp").GetComponent<ClueMenu>();
+        ClueMenu pop = GameObject.Find("TextBox").GetComponent<ClueMenu>();
         pop.ExitPopUp(popUp);
     }
 

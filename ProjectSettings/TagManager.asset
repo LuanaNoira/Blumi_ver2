@@ -5,8 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Interact
-  - PopUp
   - AbilityUI
+  - PopUp
   layers:
   - Default
   - TransparentFX
