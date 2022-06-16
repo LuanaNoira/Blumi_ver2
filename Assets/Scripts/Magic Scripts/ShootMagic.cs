@@ -24,11 +24,13 @@ public class ShootMagic : MonoBehaviour
             {
                 sAzul.Charmed();
             }
-            /*
-            StunStateSlime sPirata = hit.transform.GetComponent<StunStateSlime>();
-            if(sPirata != null)
+            
+            SlimeTarget sPirata = hit.transform.GetComponent<SlimeTarget>();
+            if(sPirata != null && sPirata.CompareTag("Pirata"))
             {
-            }*/
+                sPirata.Stun();
+                Debug.Log("toquei!");
+            }
             //Fazer com tags(os slimes têm diferentes tags)
             //Cada magia tem uma script
         }

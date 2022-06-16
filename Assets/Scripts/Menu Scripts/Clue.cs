@@ -9,9 +9,16 @@ public class Clue : MonoBehaviour
     public KeyCode DialogueInput = KeyCode.E;
     [SerializeField] private bool isInRange = false;
     [SerializeField] private bool isShowing = false;
-    
+
+    [SerializeField] private ClueMenu pop;
+
     [TextArea(3,15)]
     public string popUp;
+
+    public void Start()
+    {
+        pop = pop.GetComponent<ClueMenu>();
+    }
 
     private void Update()
     {
@@ -38,14 +45,12 @@ public class Clue : MonoBehaviour
     public void ShowPopUp()
     {
         dialogueKey.SetActive(false);
-        ClueMenu pop = GameObject.Find("TextBox").GetComponent<ClueMenu>();
         pop.PopUp(popUp);
     }
 
     public void DontShowPopUp()
     {
         isShowing = false;
-        ClueMenu pop = GameObject.Find("TextBox").GetComponent<ClueMenu>();
         pop.ExitPopUp(popUp);
     }
 
