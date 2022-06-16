@@ -94,10 +94,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5829887340069654355}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 251e8fe201198894a91aa74083a766bb, type: 3}
+  m_Script: {fileID: 11500000, guid: 04274a1624091f34a902b709441b8b07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 100
+  mouseSensitivity: 200
   playerBody: {fileID: 0}
 --- !u!114 &5829887340069654357
 MonoBehaviour:
