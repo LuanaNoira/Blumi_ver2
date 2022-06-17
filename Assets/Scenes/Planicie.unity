@@ -954,6 +954,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 39484515}
   m_CullTransparentMesh: 1
+--- !u!20 &46762270 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 4284946955733899102, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
+  m_PrefabInstance: {fileID: 1442241495}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &66130796
 GameObject:
   m_ObjectHideFlags: 0
@@ -8132,6 +8137,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 594361308}
   m_CullTransparentMesh: 1
+--- !u!1 &604703725 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2176241207285397099, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
+  m_PrefabInstance: {fileID: 1442241495}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &606453816
 GameObject:
   m_ObjectHideFlags: 0
@@ -8497,6 +8507,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 627675506}
   m_CullTransparentMesh: 1
+--- !u!1 &635578077 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2176241209063831922, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
+  m_PrefabInstance: {fileID: 1442241495}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &635578078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 635578077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86b994e24c18ddf489882bc133e76a98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  range: 50
+  myCamera: {fileID: 46762270}
+  magia: {fileID: 635578077}
 --- !u!1 &643745343
 GameObject:
   m_ObjectHideFlags: 0
@@ -17527,6 +17557,74 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1094083181}
     m_Modifications:
+    - target: {fileID: 2176241207285397096, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176241207285397096, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2216967
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176241207285397096, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.7361023
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176241207285397099, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
+      propertyPath: m_TagString
+      value: Charm
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176241207285397100, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
+      propertyPath: magia
+      value: 
+      objectReference: {fileID: 604703725}
+    - target: {fileID: 2176241207323890997, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
+      propertyPath: m_TagString
+      value: Invisibility
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176241208016654680, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.217
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176241208016654680, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.735
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176241208016654683, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
+      propertyPath: m_TagString
+      value: Bait
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176241208628103817, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
+      propertyPath: m_TagString
+      value: Purify
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176241208887843094, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
+      propertyPath: m_TagString
+      value: Teleport
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176241208955261863, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
+      propertyPath: m_TagString
+      value: Water
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176241209063831922, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
+      propertyPath: m_TagString
+      value: Levitate
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176241209063831923, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176241209063831923, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2106968
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176241209063831923, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.74210227
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176241209064655526, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
+      propertyPath: m_TagString
+      value: Stun
+      objectReference: {fileID: 0}
     - target: {fileID: 4284946955733899091, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
       propertyPath: m_RenderPostProcessing
       value: 1
@@ -18239,6 +18337,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1517976733}
   m_CullTransparentMesh: 1
+--- !u!1 &1520947954 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2176241209064655526, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
+  m_PrefabInstance: {fileID: 1442241495}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1520947955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520947954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86b994e24c18ddf489882bc133e76a98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  range: 50
+  myCamera: {fileID: 46762270}
+  magia: {fileID: 1520947954}
 --- !u!1001 &1521266646
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18997,6 +19115,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1592107727}
   m_CullTransparentMesh: 1
+--- !u!1 &1595404290 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2176241207323890997, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
+  m_PrefabInstance: {fileID: 1442241495}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1595404291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595404290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86b994e24c18ddf489882bc133e76a98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  range: 50
+  myCamera: {fileID: 46762270}
+  magia: {fileID: 1595404290}
 --- !u!1 &1607279564
 GameObject:
   m_ObjectHideFlags: 0

@@ -30,7 +30,7 @@ public class StunStateSlime : StateMachineBehaviour
         if (timer > stunnedTime && slimePirata.charmed == false)
         {
             animator.SetBool("isStunned", false);
-            //animator.SetBool("isPatrolling", true);
+            animator.SetBool("isPatrolling", true);
             slimePirata.stun = false;
         }
         else if (timer > stunnedTime && slimePirata.charmed == true)
@@ -39,8 +39,13 @@ public class StunStateSlime : StateMachineBehaviour
             animator.SetBool("isCharmed", true);
             slimePirata.stun = false;
         }
-
-        if(timer < stunnedTime)
+        else if (timer < stunnedTime && slimePirata.charmed == true)
+        {
+            animator.SetBool("isStunned", false);
+            animator.SetBool("isCharmed", true);
+            slimePirata.stun = false;
+        }
+        else if(timer < stunnedTime)
         {
             agent.SetDestination(animator.transform.position);
         }
@@ -49,7 +54,7 @@ public class StunStateSlime : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        
+
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

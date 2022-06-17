@@ -4,6 +4,9 @@ public class ShootMagic : MonoBehaviour
 {
     public float range = 50f;
     public Camera myCamera;
+
+    [SerializeField] private GameObject magia;
+
     void Update()
     {
         if(Input.GetButtonDown("Fire1"))

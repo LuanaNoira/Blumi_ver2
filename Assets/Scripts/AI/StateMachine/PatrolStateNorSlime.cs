@@ -50,6 +50,8 @@ public class PatrolStateNorSlime : StateMachineBehaviour
 
         if (slimePirata.stun == true)
         {
+            timer = 0;
+            animator.SetBool("isPatrolling", false);
             animator.SetBool("isStunned", true);
         }
     }

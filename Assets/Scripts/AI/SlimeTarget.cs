@@ -21,7 +21,7 @@ public class SlimeTarget : MonoBehaviour
 
     public void Charmed()
     {
-
+        charmed = true;
     }
 
     public void Levitate()

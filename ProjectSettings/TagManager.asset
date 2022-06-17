@@ -8,6 +8,14 @@ TagManager:
   - AbilityUI
   - PopUp
   - Pirata
+  - Charm
+  - Levitate
+  - Bait
+  - Invisibility
+  - Water
+  - Stun
+  - Teleport
+  - Purify
   layers:
   - Default
   - TransparentFX

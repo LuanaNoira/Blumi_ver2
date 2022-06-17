@@ -39,6 +39,7 @@ public class ChaseStateSlime : StateMachineBehaviour
         
         if(slimePirata.stun == true)
         {
+            animator.SetBool("isChasing", false);
             animator.SetBool("isStunned", true);
         }
     }

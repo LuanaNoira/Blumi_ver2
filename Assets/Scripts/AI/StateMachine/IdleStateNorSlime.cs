@@ -37,6 +37,7 @@ public class IdleStateNorSlime : StateMachineBehaviour
 
         if (slimePirata.stun == true)
         {
+            timer = 0;
             animator.SetBool("isStunned", true);
         }
     }
