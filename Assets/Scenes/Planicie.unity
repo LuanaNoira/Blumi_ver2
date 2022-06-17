@@ -629,7 +629,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 710741364}
-  magicSwitch: {fileID: 0}
+  magicSwitch: {fileID: 1323007332}
   crosshair: {fileID: 726350220}
   abilityUI: {fileID: 514059737}
   slimeLog: {fileID: 674379522}
@@ -3570,9 +3570,9 @@ NavMeshAgent:
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 2
+  m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
+  m_AutoBraking: 0
   m_AutoRepath: 1
   m_Height: 0.48
   m_BaseOffset: 0
@@ -16400,6 +16400,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1321115857}
   m_CullTransparentMesh: 1
+--- !u!1 &1323007332 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2176241207820203819, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
+  m_PrefabInstance: {fileID: 1442241495}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1341666598
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19958,7 +19963,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.77254903}
+  m_Color: {r: 0.4719206, g: 0.49577263, b: 0.9528302, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
