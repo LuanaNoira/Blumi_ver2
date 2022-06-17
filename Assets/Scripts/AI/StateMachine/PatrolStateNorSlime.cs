@@ -13,6 +13,8 @@ public class PatrolStateNorSlime : StateMachineBehaviour
     Transform player;
     [SerializeField] private float chaseRange = 8;
 
+    private SlimeTarget slimePirata;
+
     //OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
@@ -21,6 +23,8 @@ public class PatrolStateNorSlime : StateMachineBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
         //Speed no caso de precisar mexer
         //agent.speed = 1.5f;
+
+        slimePirata = animator.GetComponent<SlimeTarget>();
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -42,6 +46,11 @@ public class PatrolStateNorSlime : StateMachineBehaviour
         if (distance < chaseRange)
         {
             animator.SetBool("isChasing", true);
+        }
+
+        if (slimePirata.stun == true)
+        {
+            animator.SetBool("isStunned", true);
         }
     }
 
