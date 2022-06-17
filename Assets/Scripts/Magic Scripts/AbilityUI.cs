@@ -11,22 +11,22 @@ public class AbilityUI : MonoBehaviour
     {
         for (int i = 0; i < magicImage.Length; i++)
         {
-            magicImage[i].GetComponent<Image>().color = new Color32(0, 0, 0, 69);
+            magicImage[i].GetComponent<Image>().color = new Color32(121, 126, 243, 255);
         }
-        magicImage[0].GetComponent<Image>().color = new Color32(255, 255, 255, 69);
+        magicImage[0].GetComponent<Image>().color = new Color32(255, 255, 255, 255);
     }
 
     public void setMagicImage(int e)
     {
         for (int i = 0; i < magicImage.Length; i++)
         {
-            magicImage[i].GetComponent<Image>().color = new Color32(0, 0, 0, 69);
+            magicImage[i].GetComponent<Image>().color = new Color32(121, 126, 243, 255);
         }
         for (int i = 0; i < magicImage.Length; i++)
         {
             if(i == e)
             {
-                magicImage[i].GetComponent<Image>().color = new Color32(255, 255, 255, 69);
+                magicImage[i].GetComponent<Image>().color = new Color32(255, 255, 255, 255);
             }
         }
     }
