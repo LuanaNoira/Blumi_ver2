@@ -7,7 +7,6 @@ public class ClueMenu : MonoBehaviour
 {
     public GameObject popUpBox;
     [SerializeField] private TMP_Text popUpText;
-    [SerializeField] private GameObject abilityUI;
 
     private void Start()
     {
@@ -18,13 +17,11 @@ public class ClueMenu : MonoBehaviour
     {
         popUpBox.SetActive(true);
         popUpText.text = text;
-        abilityUI.SetActive(false);
     }
 
     public void ExitPopUp(string text)
     {
         popUpBox.SetActive(false);
         popUpText.text = null;
-        abilityUI.SetActive(true);
     }
 }

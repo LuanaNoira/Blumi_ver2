@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PAUSEMENU : MonoBehaviour
 {
-    public static bool GameisPaused = false;
+    public bool GameisPaused = false;
     public GameObject pauseMenu;
 
     public static bool slimeLogOn = false;

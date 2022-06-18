@@ -10,14 +10,15 @@ public class Clue : MonoBehaviour
     [SerializeField] private bool isInRange = false;
     [SerializeField] private bool isShowing = false;
 
-    [SerializeField] private ClueMenu pop;
+    PAUSEMENU pMenu;
+    [SerializeField] private GameObject abilityUI;
 
     [TextArea(3,15)]
     public string popUp;
 
     public void Start()
     {
-        pop = pop.GetComponent<ClueMenu>();
+        pMenu = GameObject.Find("PauseMenu").GetComponent<PAUSEMENU>();
     }
 
     private void Update()
@@ -40,18 +41,43 @@ public class Clue : MonoBehaviour
                 isInRange = false;
             }
         }
+
+        //no caso de apertar ESCAPE
+        if (pMenu.GameisPaused)
+        {
+            if(isInRange && isShowing)
+            {
+                DontShowPopUp();
+                abilityUI.SetActive(false);
+            }
+            else if(isInRange && isShowing == false)
+            {
+                dialogueKey.SetActive(false);
+            }
+        }
+        else
+        {
+            if(isInRange && isShowing == false)
+            {
+                dialogueKey.SetActive(true);
+            }
+        }
     }
 
     public void ShowPopUp()
     {
         dialogueKey.SetActive(false);
+        ClueMenu pop = GameObject.FindGameObjectWithTag("PopUp").GetComponent<ClueMenu>();
         pop.PopUp(popUp);
+        abilityUI.SetActive(false);
     }
 
     public void DontShowPopUp()
     {
         isShowing = false;
+        ClueMenu pop = GameObject.FindGameObjectWithTag("PopUp").GetComponent<ClueMenu>();
         pop.ExitPopUp(popUp);
+        abilityUI.SetActive(true);
     }
 
     private void OnTriggerEnter(Collider other)
