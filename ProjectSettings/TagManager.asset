@@ -18,6 +18,8 @@ TagManager:
   - Purify
   - slimePos1
   - SlimeLog
+  - WaypointAzul1
+  - WaypointAzul2
   layers:
   - Default
   - TransparentFX

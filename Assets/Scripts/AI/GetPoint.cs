@@ -6,12 +6,14 @@ using UnityEngine.AI;
 public class GetPoint : MonoBehaviour
 {
     public static GetPoint Instance;
+    public GetPoint waypoint;
 
     public float Range;
 
     private void Awake()
     {
         Instance = this;
+        waypoint = this;
     }
 
     bool RandomPoint(Vector3 center, float range, out Vector3 result)
