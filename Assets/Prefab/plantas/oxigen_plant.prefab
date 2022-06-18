@@ -3241,8 +3241,16 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3466762345806995478, guid: 0ec947f7835dde54b9f8fbbf6d7cfd52, type: 3}
+      propertyPath: simulationSpeed
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 3466762345806995478, guid: 0ec947f7835dde54b9f8fbbf6d7cfd52, type: 3}
       propertyPath: ShapeModule.angle
       value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 3466762345806995478, guid: 0ec947f7835dde54b9f8fbbf6d7cfd52, type: 3}
+      propertyPath: RotationModule.enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3466762345806995478, guid: 0ec947f7835dde54b9f8fbbf6d7cfd52, type: 3}
       propertyPath: ShapeModule.arc.spread
@@ -3253,16 +3261,40 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3466762345806995478, guid: 0ec947f7835dde54b9f8fbbf6d7cfd52, type: 3}
+      propertyPath: RotationModule.separateAxes
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3466762345806995478, guid: 0ec947f7835dde54b9f8fbbf6d7cfd52, type: 3}
+      propertyPath: RotationModule.x.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3466762345806995478, guid: 0ec947f7835dde54b9f8fbbf6d7cfd52, type: 3}
+      propertyPath: RotationModule.y.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3466762345806995478, guid: 0ec947f7835dde54b9f8fbbf6d7cfd52, type: 3}
       propertyPath: InitialModule.maxNumParticles
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3466762345806995478, guid: 0ec947f7835dde54b9f8fbbf6d7cfd52, type: 3}
+      propertyPath: RotationModule.curve.minScalar
+      value: 0.43633232
       objectReference: {fileID: 0}
     - target: {fileID: 3466762345806995478, guid: 0ec947f7835dde54b9f8fbbf6d7cfd52, type: 3}
       propertyPath: InitialModule.startSpeed.scalar
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3466762345806995478, guid: 0ec947f7835dde54b9f8fbbf6d7cfd52, type: 3}
+      propertyPath: RotationModule.curve.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3466762345806995478, guid: 0ec947f7835dde54b9f8fbbf6d7cfd52, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3466762345806995478, guid: 0ec947f7835dde54b9f8fbbf6d7cfd52, type: 3}
+      propertyPath: InitialModule.randomizeRotationDirection
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7025604731136293698, guid: 0ec947f7835dde54b9f8fbbf6d7cfd52, type: 3}
       propertyPath: m_Name
