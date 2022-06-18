@@ -18,6 +18,9 @@ public class StunStateSlime : StateMachineBehaviour
     {
         agent = animator.GetComponent<NavMeshAgent>();
         timer = 0;
+
+        agent.autoBraking = true;
+
         agent.SetDestination(agent.transform.position);
         slimePirata = animator.GetComponent<SlimeTarget>();
     }

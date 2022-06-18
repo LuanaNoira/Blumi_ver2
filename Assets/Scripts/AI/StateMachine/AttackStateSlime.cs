@@ -5,12 +5,17 @@ using UnityEngine.AI;
 
 public class AttackStateSlime : StateMachineBehaviour
 {
+    private NavMeshAgent agent;
+
     Transform player;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+        agent = animator.GetComponent<NavMeshAgent>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
+
+        agent.autoBraking = true;
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks

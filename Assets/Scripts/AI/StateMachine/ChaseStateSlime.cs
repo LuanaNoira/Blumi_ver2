@@ -20,6 +20,8 @@ public class ChaseStateSlime : StateMachineBehaviour
         //Speed no caso de precisar mexer
         //agent.speed = 3.5f;
 
+        agent.autoBraking = false;
+
         slimePirata = animator.GetComponent<SlimeTarget>();
     }
 

@@ -21,6 +21,9 @@ public class PatrolStateNorSlime : StateMachineBehaviour
         agent = animator.GetComponent<NavMeshAgent>();
         timer = 0;
         player = GameObject.FindGameObjectWithTag("Player").transform;
+
+        agent.autoBraking = false;
+
         //Speed no caso de precisar mexer
         //agent.speed = 1.5f;
 

@@ -22,10 +22,12 @@ public class CharmedStateSlime : StateMachineBehaviour
         if (agent.speed == 0)
         {
             animator.SetFloat("charmMotion", 0);
+            agent.autoBraking = true;
         }
         else if (agent.speed > 0)
         {
             animator.SetFloat("charmMotion", 1);
+            agent.autoBraking = false;
         }
     }
 
