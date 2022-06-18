@@ -36,19 +36,20 @@ public class StunStateSlime : StateMachineBehaviour
             animator.SetBool("isPatrolling", true);
             slimePirata.stun = false;
         }
+        /*
         else if (timer > stunnedTime && slimePirata.charmed == true)
         {
             animator.SetBool("isStunned", false);
             animator.SetBool("isCharmed", true);
             slimePirata.stun = false;
-        }
+        }*/
         else if (timer < stunnedTime && slimePirata.charmed == true)
         {
             animator.SetBool("isStunned", false);
             animator.SetBool("isCharmed", true);
             slimePirata.stun = false;
         }
-        else if(timer < stunnedTime)
+        else if(timer < stunnedTime && slimePirata.charmed == false)
         {
             agent.SetDestination(animator.transform.position);
         }

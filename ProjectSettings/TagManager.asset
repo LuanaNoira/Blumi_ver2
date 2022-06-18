@@ -16,6 +16,8 @@ TagManager:
   - Stun
   - Teleport
   - Purify
+  - slimePos1
+  - SlimeLog
   layers:
   - Default
   - TransparentFX

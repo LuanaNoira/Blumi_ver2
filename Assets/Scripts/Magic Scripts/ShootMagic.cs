@@ -29,12 +29,34 @@ public class ShootMagic : MonoBehaviour
             }
             
             SlimeTarget slimes = hit.transform.GetComponent<SlimeTarget>();
+
+            //AZUL
+
+
+            //GALINHA
+
+
+            //FOCA
+
+
+            //FLOR
+
+
+            //BORBOLETA
+
+            //PIRATA
             if((slimes != null) && (slimes.CompareTag("Pirata")) && (magia.CompareTag("Stun")))
             {
                 slimes.Stun();
                 Debug.Log("toquei!");
             }
+            if ((slimes != null) && (slimes.CompareTag("Pirata")) && (magia.CompareTag("Charm")))
+            {
+                slimes.Charmed();
+                Debug.Log("toquei!");
+            }
 
+            //PESADELO
 
             //Fazer com tags(os slimes têm diferentes tags)
             //Cada magia tem uma script

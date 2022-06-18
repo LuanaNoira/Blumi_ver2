@@ -8,7 +8,7 @@ public class ChaseStateSlime : StateMachineBehaviour
     private NavMeshAgent agent;
     
     Transform player;
-    [SerializeField] private float chaseRange = 8;
+    //[SerializeField] private float chaseRange = 8;
 
     private SlimeTarget slimePirata;
 

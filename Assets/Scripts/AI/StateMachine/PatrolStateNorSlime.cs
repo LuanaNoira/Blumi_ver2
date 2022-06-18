@@ -63,6 +63,7 @@ public class PatrolStateNorSlime : StateMachineBehaviour
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         agent.SetDestination(agent.transform.position);
+        animator.SetBool("isPatrolling", false);
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

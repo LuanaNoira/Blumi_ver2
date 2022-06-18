@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SlimeLog : MonoBehaviour
 {
-    [SerializeField] private GameObject slimeLog;
+    public GameObject slimeLog;
 
     public bool sAzul = false;
     [SerializeField] private GameObject sAzulB;
