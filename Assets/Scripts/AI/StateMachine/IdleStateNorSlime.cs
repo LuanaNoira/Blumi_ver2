@@ -24,6 +24,8 @@ public class IdleStateNorSlime : StateMachineBehaviour
         agent.autoBraking = true;
 
         slimePirata = animator.GetComponent<SlimeTarget>();
+
+        animator.SetBool("isStunFace", false);
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks

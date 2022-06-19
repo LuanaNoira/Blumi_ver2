@@ -23,6 +23,8 @@ public class StunStateSlime : StateMachineBehaviour
 
         agent.SetDestination(agent.transform.position);
         slimePirata = animator.GetComponent<SlimeTarget>();
+
+        animator.SetBool("isStunFace", true);
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -34,6 +36,7 @@ public class StunStateSlime : StateMachineBehaviour
         {
             animator.SetBool("isStunned", false);
             animator.SetBool("isPatrolling", true);
+            animator.SetBool("isStunFace", false);
             slimePirata.stun = false;
         }
         /*
@@ -47,6 +50,7 @@ public class StunStateSlime : StateMachineBehaviour
         {
             animator.SetBool("isStunned", false);
             animator.SetBool("isCharmed", true);
+            animator.SetBool("isStunFace", false);
             slimePirata.stun = false;
         }
         else if(timer < stunnedTime && slimePirata.charmed == false)
