@@ -11,6 +11,8 @@ public class DayNightCycle : MonoBehaviour
     private float timeRate;
     public Vector3 noon;
 
+    public bool dayTime;
+
     [Header("Sun")]
     public Light sun;
     public Gradient sunColor;
@@ -80,6 +82,15 @@ public class DayNightCycle : MonoBehaviour
         RenderSettings.ambientIntensity = lightingIntensityMultiplier.Evaluate(time);
         RenderSettings.reflectionIntensity = reflectionsIntensityMultiplier.Evaluate(time);
 
+
+        if ((time <= 0.22f) || (time >= 0.78f))
+        {
+            dayTime = false;
+        }
+        else
+        {
+            dayTime = true;
+        }
     }
 
 }
