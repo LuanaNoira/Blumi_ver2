@@ -5,11 +5,25 @@ using UnityEngine.AI;
 
 public class GetWaypoint : MonoBehaviour
 {
-    [SerializeField] private GameObject waypoint;
+    [SerializeField] private GetPoint wPoint;
+
+    public void Start()
+    {
+        wPoint = GetPoint.Instance;
+        CheckWaypoint();
+    }
+
+    public void Update()
+    {
+        //CheckWaypoint();
+    }
 
     public void CheckWaypoint()
     {
-
+        if(wPoint.waypoint != wPoint)
+        {
+            wPoint.waypoint = wPoint;
+        }
     }
 
 

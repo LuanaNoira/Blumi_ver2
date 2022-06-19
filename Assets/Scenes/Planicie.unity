@@ -4368,6 +4368,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &210573539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210573534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1424d99553c28ed40bf300f2ee329662, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wPoint: {fileID: 1637578203}
 --- !u!1 &212140797
 GameObject:
   m_ObjectHideFlags: 0
@@ -16112,6 +16125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39d595074c7800b4888197216156ed50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoint: {fileID: 0}
   Range: 10
 --- !u!1 &929298061
 GameObject:
@@ -31240,6 +31254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39d595074c7800b4888197216156ed50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoint: {fileID: 0}
   Range: 10
 --- !u!1 &1642828332
 GameObject:
