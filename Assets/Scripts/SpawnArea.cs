@@ -66,10 +66,11 @@ public class SpawnArea : MonoBehaviour
                 slimeCount += 1;
             }
         }
+        /*
         else if(sliPesadelo && horario.dayTime)
         {
             Destroy(slimeSpawned);
-        }
+        } */
 
         //SLIME FOCA
         if(sliFoca && horario.dayTime)
