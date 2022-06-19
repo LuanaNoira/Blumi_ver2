@@ -1,9 +1,34 @@
 fileFormatVersion: 2
-guid: 8c4288775875207499faeee5217da941
+guid: 47a4cfd22b83c964894aa2e8f9841560
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FLOWER BASE
+    second: {fileID: 2100000, guid: d34aa527a5aaf8349a1f0659faed1777, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FLOWER CENTER
+    second: {fileID: 2100000, guid: d34aa527a5aaf8349a1f0659faed1777, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FLOWER DARKER
+    second: {fileID: 2100000, guid: d34aa527a5aaf8349a1f0659faed1777, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: log
+    second: {fileID: 2100000, guid: fb5f4d9fbb1e26f418293f3ddd1d96cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: log.001
+    second: {fileID: 2100000, guid: fb5f4d9fbb1e26f418293f3ddd1d96cc, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
