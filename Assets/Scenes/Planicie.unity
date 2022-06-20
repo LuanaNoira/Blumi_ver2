@@ -6514,6 +6514,7 @@ MonoBehaviour:
   yPos: 102
   slimeCount: 0
   slimeNumberArea: 20
+  slimesList: []
 --- !u!1001 &355185196
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7586,7 +7587,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   time: 0
   fullDayLenght: 300
-  startTime: 0.4
+  startTime: 0.2
   noon: {x: 90, y: 0, z: 0}
   dayTime: 1
   sun: {fileID: 1746467743}

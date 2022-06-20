@@ -23,11 +23,13 @@ public class SpawnArea : MonoBehaviour
 
     public int slimeCount;
     [SerializeField] private int slimeNumberArea;
+    public List<GameObject> slimesList;
 
     public void Start()
     {
         horario = horario.GetComponent<DayNightCycle>();
         CheckSlime();
+        slimesList = new List<GameObject>();
         //StartCoroutine(SlimeSpawner());
     }
 
@@ -61,16 +63,23 @@ public class SpawnArea : MonoBehaviour
             {
                 xPos = Random.Range(xPosMin, xPosMax);
                 zPos = Random.Range(zPosMin, zPosMax);
-                Instantiate(slimeSpawned, new Vector3(xPos, yPos, zPos), Quaternion.identity);
-                yield return new WaitForSeconds(0.1f);
+                slimesList.Add( (GameObject)Instantiate(slimeSpawned, new Vector3(xPos, yPos, zPos), Quaternion.identity));
                 slimeCount += 1;
+                yield return new WaitForSeconds(Random.Range(0.1f, 2f));
+                //slimeCount += 1;
             }
         }
-        /*
+        
         else if(sliPesadelo && horario.dayTime)
         {
-            Destroy(slimeSpawned);
-        } */
+            while (slimeCount > 0)
+            {
+                Destroy(slimesList[slimeCount - 1]);
+                slimesList.Remove(slimesList[slimeCount -1]);
+                slimeCount -= 1;
+                yield return new WaitForSeconds(Random.Range(0.1f, 0.4f)); 
+            }
+        } 
 
         //SLIME FOCA
         if(sliFoca && horario.dayTime)
@@ -80,13 +89,23 @@ public class SpawnArea : MonoBehaviour
                 xPos = Random.Range(xPosMin, xPosMax);
                 zPos = Random.Range(zPosMin, zPosMax);
                 Instantiate(slimeSpawned, new Vector3(xPos, yPos, zPos), Quaternion.identity);
-                yield return new WaitForSeconds(0.1f);
+                yield return new WaitForSeconds(Random.Range(0.1f, 1f));
                 slimeCount += 1;
+            }
+        }
+        else if (sliFoca && (horario.dayTime == false))
+        {
+            while (slimeCount > 0)
+            {
+                Destroy(slimesList[slimeCount - 1]);
+                slimesList.Remove(slimesList[slimeCount - 1]);
+                slimeCount -= 1;
+                yield return new WaitForSeconds(Random.Range(0.1f, 0.4f));
             }
         }
 
         //SLIME QUE APARECEM SEMPRE
-        if(sliSpawnedAnyTime)
+        if (sliSpawnedAnyTime)
         {
             while (slimeCount < slimeNumberArea)
             {
@@ -97,5 +116,13 @@ public class SpawnArea : MonoBehaviour
                 slimeCount += 1;
             }
         } 
+    }
+
+    public IEnumerator RemoveSlime()
+    {
+        yield return 0;
+
+        slimesList.RemoveAll(item => item == null);
+
     }
 }
