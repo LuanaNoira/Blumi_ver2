@@ -15384,6 +15384,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Slime gordo
       objectReference: {fileID: 0}
+    - target: {fileID: 7620823581351049276, guid: 10002410e53242848ba446c02833a644, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7946640948298259502, guid: 10002410e53242848ba446c02833a644, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -25515,6 +25519,10 @@ PrefabInstance:
     - target: {fileID: 4280851431624578175, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4284946955733899088, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
+      propertyPath: mouseSensitivity
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 4284946955733899090, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -38259,26 +38267,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2599181906660505675, guid: be090f5da7aeedc489e8e63e18ef64a8, type: 3}
-      propertyPath: waypoints.Array.data[0]
-      value: 
-      objectReference: {fileID: 81295743}
-    - target: {fileID: 2599181906660505675, guid: be090f5da7aeedc489e8e63e18ef64a8, type: 3}
-      propertyPath: waypoints.Array.data[1]
-      value: 
-      objectReference: {fileID: 1366022029}
-    - target: {fileID: 2599181906660505677, guid: be090f5da7aeedc489e8e63e18ef64a8, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 9967dc0576c57bf4e951b0244b3feb08, type: 2}
     - target: {fileID: 2941782932484916965, guid: be090f5da7aeedc489e8e63e18ef64a8, type: 3}
       propertyPath: m_Name
       value: 01_Slime_Azul_Rigged
       objectReference: {fileID: 0}
-    - target: {fileID: 3143692402777861630, guid: be090f5da7aeedc489e8e63e18ef64a8, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 8e54cfbb88c895d4288d2091006f43b8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be090f5da7aeedc489e8e63e18ef64a8, type: 3}
 --- !u!1001 &2680153857864308694

@@ -3,17 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class PatrolStateNorSlime : StateMachineBehaviour
+public class PatrolStateSlime : StateMachineBehaviour
 {
     private NavMeshAgent agent;
 
     public float radius;
     float timer;
-
-    Transform player;
-    [SerializeField] private float chaseRange = 8;
-
-    private SlimeTarget slimePirata;
 
     [SerializeField] private GetPoint wPoint;
     [SerializeField] private GetWaypoint wPointCheck;
@@ -23,21 +18,18 @@ public class PatrolStateNorSlime : StateMachineBehaviour
     {
         agent = animator.GetComponent<NavMeshAgent>();
         timer = 0;
-        player = GameObject.FindGameObjectWithTag("Player").transform;
 
         agent.autoBraking = false;
 
         wPointCheck = animator.GetComponent<GetWaypoint>();
 
+        if (wPointCheck.wPoint1)
+            wPoint = GameObject.FindGameObjectWithTag("Waypoint1").GetComponent<GetPoint>();
+        if (wPointCheck.wPoint2)
+            wPoint = GameObject.FindGameObjectWithTag("Waypoint2").GetComponent<GetPoint>();
+
         //Speed no caso de precisar mexer
         //agent.speed = 1.5f;
-
-        slimePirata = animator.GetComponent<SlimeTarget>();
-
-        if(wPointCheck.wPoint1)
-            wPoint = GameObject.FindGameObjectWithTag("Waypoint1").GetComponent<GetPoint>();
-        if(wPointCheck.wPoint2)
-            wPoint = GameObject.FindGameObjectWithTag("Waypoint2").GetComponent<GetPoint>(); 
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -50,22 +42,9 @@ public class PatrolStateNorSlime : StateMachineBehaviour
             agent.SetDestination(wPoint.GetRandomPoint());
         }
 
-        if (timer > Random.Range(7,10))
+        if (timer > Random.Range(7, 10))
         {
             animator.SetBool("isPatrolling", false);
-        }
-
-        float distance = Vector3.Distance(player.position, animator.transform.position);
-        if (distance < chaseRange)
-        {
-            animator.SetBool("isChasing", true);
-        }
-
-        if (slimePirata.stun == true)
-        {
-            timer = 0;
-            animator.SetBool("isPatrolling", false);
-            animator.SetBool("isStunned", true);
         }
     }
 

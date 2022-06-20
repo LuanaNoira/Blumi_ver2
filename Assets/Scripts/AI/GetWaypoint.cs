@@ -5,12 +5,22 @@ using UnityEngine.AI;
 
 public class GetWaypoint : MonoBehaviour
 {
-    [SerializeField] private GetPoint wPoint;
-
+    public bool wPoint1;
+    public bool wPoint2;
+    public bool wPoint3;
+    public bool wPoint4;
+    public bool wPoint5;
+    public bool wPoint6;
+    public bool wPoint7;
+    public bool wPoint8;
+    
+    /*
     public void Start()
     {
+
+        
         wPoint = GetPoint.Instance;
-        CheckWaypoint();
+        CheckWaypoint(); 
     }
 
     public void Update()
@@ -18,6 +28,7 @@ public class GetWaypoint : MonoBehaviour
         //CheckWaypoint();
     }
 
+    
     public void CheckWaypoint()
     {
         if(wPoint.waypoint != wPoint)
@@ -26,5 +37,5 @@ public class GetWaypoint : MonoBehaviour
         }
     }
 
-
+    */
 }

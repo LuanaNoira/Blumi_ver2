@@ -31,7 +31,11 @@ public class ShootMagic : MonoBehaviour
             SlimeTarget slimes = hit.transform.GetComponent<SlimeTarget>();
 
             //AZUL
-
+            if ((slimes != null) && (slimes.CompareTag("SliAzul")) && (magia.CompareTag("Charm")))
+            {
+                slimes.Charmed();
+                Debug.Log("toquei!");
+            }
 
             //GALINHA
 
@@ -45,7 +49,7 @@ public class ShootMagic : MonoBehaviour
             //BORBOLETA
 
             //PIRATA
-            if((slimes != null) && (slimes.CompareTag("Pirata")) && (magia.CompareTag("Stun")))
+            if ((slimes != null) && (slimes.CompareTag("Pirata")) && (magia.CompareTag("Stun")))
             {
                 slimes.Stun();
                 Debug.Log("toquei!");
