@@ -374,7 +374,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1424d99553c28ed40bf300f2ee329662, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wPoint: {fileID: 0}
+  wPoint1: 0
+  wPoint2: 0
+  wPoint3: 0
+  wPoint4: 0
+  wPoint5: 0
+  wPoint6: 0
+  wPoint7: 0
+  wPoint8: 0
 --- !u!1 &8226202271232197803
 GameObject:
   m_ObjectHideFlags: 0
