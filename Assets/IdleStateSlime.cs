@@ -9,11 +9,14 @@ public class IdleStateSlime : StateMachineBehaviour
 
     private NavMeshAgent agent;
 
+    private SlimeTarget slime;
+
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         agent = animator.GetComponent<NavMeshAgent>();
         timer = 0;
+        slime = animator.GetComponent<SlimeTarget>();
 
         agent.autoBraking = true;
     }
@@ -25,6 +28,12 @@ public class IdleStateSlime : StateMachineBehaviour
         if (timer > Random.Range(4, 7))
         {
             animator.SetBool("isPatrolling", true);
+        }
+
+        if(slime.charmed)
+        {
+            animator.SetBool("isPatrolling", false);
+            animator.SetBool("isCharmed", true);
         }
     }
 

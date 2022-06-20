@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3614594217434329570}
   - component: {fileID: 3590823718625909801}
+  - component: {fileID: 5439882404994210227}
   m_Layer: 0
   m_Name: slime
   m_TagString: Untagged
@@ -85,6 +86,20 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00000011222437, y: 0.0021087728, z: 0.0000000013969839}
     m_Extent: {x: 0.003, y: 0.0020999988, z: 0.0029999993}
   m_DirtyAABB: 0
+--- !u!64 &5439882404994210227
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326823730867138128}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3811635454685056931, guid: 3bc31206c310fda4eb096c9620af7403, type: 3}
 --- !u!1 &3170564319793515418
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,6 +10,8 @@ public class PatrolStateSlime : StateMachineBehaviour
     public float radius;
     float timer;
 
+    private SlimeTarget slime;
+
     [SerializeField] private GetPoint wPoint;
     [SerializeField] private GetWaypoint wPointCheck;
 
@@ -18,6 +20,8 @@ public class PatrolStateSlime : StateMachineBehaviour
     {
         agent = animator.GetComponent<NavMeshAgent>();
         timer = 0;
+
+        slime = animator.GetComponent<SlimeTarget>();
 
         agent.autoBraking = false;
 
@@ -45,6 +49,12 @@ public class PatrolStateSlime : StateMachineBehaviour
         if (timer > Random.Range(7, 10))
         {
             animator.SetBool("isPatrolling", false);
+        }
+
+        if (slime.charmed)
+        {
+            animator.SetBool("isPatrolling", false);
+            animator.SetBool("isCharmed", true);
         }
     }
 
