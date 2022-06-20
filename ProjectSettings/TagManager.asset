@@ -20,6 +20,9 @@ TagManager:
   - SlimeLog
   - SliFoca
   - SliPesadelo
+  - SliAzul
+  - Waypoint1
+  - Waypoint2
   layers:
   - Default
   - TransparentFX
