@@ -13,6 +13,7 @@ public class IdleStateNorSlime : StateMachineBehaviour
     [SerializeField] private float chaseRange = 8;
 
     private SlimeTarget slime;
+    private Transform slimeChasedAzul;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -24,7 +25,13 @@ public class IdleStateNorSlime : StateMachineBehaviour
         agent.autoBraking = true;
 
         slime = animator.GetComponent<SlimeTarget>();
-        if(animator.CompareTag("Pirata") || animator.CompareTag("SliGalinha"))
+
+        if(animator.CompareTag("SliPesadelo"))
+        {
+            slimeChasedAzul = GameObject.FindGameObjectWithTag("SliAzul").transform;
+        }
+        
+        if (animator.CompareTag("Pirata") || animator.CompareTag("SliGalinha"))
         {
             animator.SetBool("isStunFace", false);
         }
@@ -38,15 +45,16 @@ public class IdleStateNorSlime : StateMachineBehaviour
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         timer += Time.deltaTime;
+        float distance = Vector3.Distance(player.position, animator.transform.position);
 
-        if(animator.CompareTag("Pirata"))
+        if (animator.CompareTag("Pirata"))
         {
             if (timer > Random.Range(4, 7))
             {
                 animator.SetBool("isPatrolling", true);
             }
 
-            float distance = Vector3.Distance(player.position, animator.transform.position);
+            
             if (distance < chaseRange)
             {
                 animator.SetBool("isChasing", true);
@@ -79,7 +87,35 @@ public class IdleStateNorSlime : StateMachineBehaviour
                 animator.SetBool("isScared", true);
             }
         }
-        
+        else if(animator.CompareTag("SliPesadelo"))
+        {
+            float distance2 = Vector3.Distance(slimeChasedAzul.position, animator.transform.position);
+
+            if (timer > Random.Range(5, 8))
+            {
+                animator.SetBool("isPatrolling", true);
+            }
+
+
+            if ((distance < chaseRange) && (distance < distance2))
+            {
+                animator.SetBool("isChasing", true);
+            }
+            else if ((distance2 < chaseRange) && (distance2 < distance))
+            {
+                animator.SetBool("isChasing", true);
+            }
+            else if(((distance < chaseRange) || (distance2 < chaseRange)) && distance == distance2)
+            {
+                animator.SetBool("isChasing", true);
+            }
+
+            if (slime.purify == true)
+            {
+                timer = 0;
+                animator.SetBool("isPurified", true);
+            }
+        }
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state

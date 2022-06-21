@@ -10,7 +10,10 @@ public class ChaseStateSlime : StateMachineBehaviour
     Transform player;
     //[SerializeField] private float chaseRange = 8;
 
-    private SlimeTarget slimePirata;
+    private SlimeTarget slime;
+    private Transform slimeChasedAzul;
+    private bool chasingPlayer = false;
+    private bool chasingSlime = false;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -22,33 +25,86 @@ public class ChaseStateSlime : StateMachineBehaviour
 
         agent.autoBraking = false;
 
-        slimePirata = animator.GetComponent<SlimeTarget>();
+        slime = animator.GetComponent<SlimeTarget>();
+        if (animator.CompareTag("SliPesadelo"))
+        {
+            slimeChasedAzul = GameObject.FindGameObjectWithTag("SliAzul").transform;
+        }
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        agent.SetDestination(player.position);
         float distance = Vector3.Distance(player.position, animator.transform.position);
-        if (distance > 15)
+        if (animator.CompareTag("Pirata"))
         {
-            animator.SetBool("isChasing", false);
+            agent.SetDestination(player.position);
+            
+            if (distance > 15)
+            {
+                animator.SetBool("isChasing", false);
+            }
+            if (distance < 2.5f)
+            {
+                animator.SetBool("isAttacking", true);
+            }
+
+            if (slime.stun == true)
+            {
+                animator.SetBool("isChasing", false);
+                animator.SetBool("isStunned", true);
+            }
         }
-        if (distance < 2.5f)
+        else if(animator.CompareTag("SliPesadelo"))
         {
-            animator.SetBool("isAttacking", true);
+            float distance2 = Vector3.Distance(slimeChasedAzul.position, animator.transform.position);
+
+            if(distance < distance2)
+            {
+                agent.SetDestination(player.position);
+                chasingPlayer = true;
+            }
+            else if (distance2 < distance)
+            {
+                agent.SetDestination(slimeChasedAzul.position);
+                chasingSlime = true;
+            }
+
+            if ((distance > 15) && chasingPlayer && chasingSlime == false)
+            {
+                animator.SetBool("isChasing", false);
+            }
+            else if ((distance2 > 15) && chasingPlayer == false && chasingSlime)
+            {
+                animator.SetBool("isChasing", false);
+            }
+            if ((distance < 2.5f) && chasingPlayer && chasingSlime == false)
+            {
+                animator.SetBool("isAttacking", true);
+            }
+            else if ((distance2 < 2.5f) && chasingPlayer == false && chasingSlime)
+            {
+                animator.SetBool("isAttacking", true);
+            }
+
+            if (slime.purify == true)
+            {
+                animator.SetBool("isChasing", false);
+                animator.SetBool("isPurified", true);
+            }
         }
         
-        if(slimePirata.stun == true)
-        {
-            animator.SetBool("isChasing", false);
-            animator.SetBool("isStunned", true);
-        }
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+        if(slime.CompareTag("SliPesadelo"))
+        {
+            chasingPlayer = false;
+            chasingSlime = false;
+        }
+
         agent.SetDestination(animator.transform.position);
     }
 

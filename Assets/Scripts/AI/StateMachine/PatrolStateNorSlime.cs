@@ -14,6 +14,7 @@ public class PatrolStateNorSlime : StateMachineBehaviour
     [SerializeField] private float chaseRange = 8;
 
     private SlimeTarget slime;
+    private Transform slimeChasedAzul;
 
     [SerializeField] private GetPoint wPoint;
     [SerializeField] private GetWaypoint wPointCheck;
@@ -31,6 +32,11 @@ public class PatrolStateNorSlime : StateMachineBehaviour
 
         //Speed no caso de precisar mexer
         //agent.speed = 1.5f;
+
+        if (animator.CompareTag("SliPesadelo"))
+        {
+            slimeChasedAzul = GameObject.FindGameObjectWithTag("SliAzul").transform;
+        }
 
         slime = animator.GetComponent<SlimeTarget>();
 
@@ -51,6 +57,8 @@ public class PatrolStateNorSlime : StateMachineBehaviour
     {
         timer += Time.deltaTime;
 
+        float distance = Vector3.Distance(player.position, animator.transform.position);
+
         if (!agent.hasPath)
         {
             agent.SetDestination(wPoint.GetRandomPoint());
@@ -62,8 +70,7 @@ public class PatrolStateNorSlime : StateMachineBehaviour
             {
                 animator.SetBool("isPatrolling", false);
             }
-
-            float distance = Vector3.Distance(player.position, animator.transform.position);
+            
             if (distance < chaseRange)
             {
                 animator.SetBool("isChasing", true);
@@ -87,6 +94,35 @@ public class PatrolStateNorSlime : StateMachineBehaviour
             {
                 animator.SetBool("isPatrolling", false);
                 animator.SetBool("isCharmed", true);
+            }
+        }
+        else if (animator.CompareTag("SliPesadelo"))
+        {
+            float distance2 = Vector3.Distance(slimeChasedAzul.position, animator.transform.position);
+
+            if (timer > Random.Range(12, 18))
+            {
+                animator.SetBool("isPatrolling", false);
+            }
+
+            if ((distance < chaseRange) && (distance < distance2))
+            {
+                animator.SetBool("isChasing", true);
+            }
+            else if ((distance2 < chaseRange) && (distance2 < distance))
+            {
+                animator.SetBool("isChasing", true);
+            }
+            else if (((distance < chaseRange) || (distance2 < chaseRange)) && distance == distance2)
+            {
+                animator.SetBool("isChasing", true);
+            }
+
+            if (slime.purify == true)
+            {
+                timer = 0;
+                animator.SetBool("isPatrolling", false);
+                animator.SetBool("isPurified", true);
             }
         }
     }

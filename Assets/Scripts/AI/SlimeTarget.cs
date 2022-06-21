@@ -62,6 +62,6 @@ public class SlimeTarget : MonoBehaviour
 
     public void Purify()
     {
-
+        purify = true;
     }
 }

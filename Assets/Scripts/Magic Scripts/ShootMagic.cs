@@ -64,6 +64,11 @@ public class ShootMagic : MonoBehaviour
             }
 
             //PESADELO
+            if ((slimes != null) && (slimes.CompareTag("SliPesadelo")) && (magia.CompareTag("Purify")))
+            {
+                slimes.Purify();
+                Debug.Log("toquei!");
+            }
 
             //Fazer com tags(os slimes têm diferentes tags)
             //Cada magia tem uma script

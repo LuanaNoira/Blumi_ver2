@@ -70,7 +70,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 942453343208421819}
+  - component: {fileID: 2666473886566823536}
   - component: {fileID: 765327367776623690}
+  - component: {fileID: 2942494020595224334}
+  - component: {fileID: 2660658102720294917}
+  - component: {fileID: 125698818995367703}
   m_Layer: 0
   m_Name: 07_Slime_Nightmare_RiggedTESTE
   m_TagString: SliPesadelo
@@ -96,6 +100,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &2666473886566823536
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459249506091885313}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!95 &765327367776623690
 Animator:
   serializedVersion: 3
@@ -115,6 +135,69 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2942494020595224334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459249506091885313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c0964303dfdec744960b21ead2c9219, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charmed: 0
+  levitate: 0
+  bait: 0
+  sound: 0
+  invisibility: 0
+  water: 0
+  stun: 0
+  teleport: 0
+  purify: 0
+--- !u!195 &2660658102720294917
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459249506091885313}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.6
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 40
+  m_AngularSpeed: 240
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 0
+  m_AutoRepath: 1
+  m_Height: 1
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &125698818995367703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459249506091885313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1424d99553c28ed40bf300f2ee329662, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wPoint1: 0
+  wPoint2: 0
+  wPoint3: 0
+  wPoint4: 0
+  wPoint5: 0
+  wPoint6: 0
+  wPoint7: 0
+  wPoint8: 0
 --- !u!1 &1693869129758704045
 GameObject:
   m_ObjectHideFlags: 0

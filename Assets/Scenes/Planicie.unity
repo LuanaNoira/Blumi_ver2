@@ -39772,6 +39772,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1715031861}
   m_CullTransparentMesh: 1
+--- !u!1 &1715702255 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5311506144331228269, guid: 274ccadb57c2aba4eb0a9b2f7d1f2f8d, type: 3}
+  m_PrefabInstance: {fileID: 765327367369255469}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1715702258
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715702255}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3811635454685056931, guid: 6e500d7c6c372eb4c9a0ee0451d60e69, type: 3}
 --- !u!4 &1716652551 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4965270263476978590, guid: 2d6aaf9ece74c8e4a9fe0dc776b4334c, type: 3}
@@ -48334,6 +48353,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1546599403}
     m_Modifications:
+    - target: {fileID: 125698818995367703, guid: 274ccadb57c2aba4eb0a9b2f7d1f2f8d, type: 3}
+      propertyPath: wPoint1
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 459249506091885313, guid: 274ccadb57c2aba4eb0a9b2f7d1f2f8d, type: 3}
       propertyPath: m_Name
       value: 07_Slime_Nightmare_RiggedTESTE
