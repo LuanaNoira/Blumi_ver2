@@ -73,7 +73,7 @@ public class IdleStateNorSlime : StateMachineBehaviour
         }
         else if(animator.CompareTag("SliFoca"))
         {
-            if(slime.water)
+            if(slime.sound)
             {
                 animator.SetBool("isSleeping", false);
                 animator.SetBool("isScared", true);
@@ -85,7 +85,10 @@ public class IdleStateNorSlime : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        
+        if(!animator.CompareTag("SliAzul"))
+        {
+            slime.charmed = false;
+        }
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

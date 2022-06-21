@@ -19,6 +19,7 @@ public class AdormecerStateFoca : StateMachineBehaviour
         slime = animator.GetComponent<SlimeTarget>();
         agent.autoBraking = true;
         slime.charmed = false;
+        slime.sound = false;
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks

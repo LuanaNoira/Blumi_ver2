@@ -21,7 +21,7 @@ public class ScaredStateSlime : StateMachineBehaviour
         slime = animator.GetComponent<SlimeTarget>();
 
         agent.autoBraking = true;
-        slime.water = false;
+        slime.sound = false;
         slime.charmed = false;
     }
 

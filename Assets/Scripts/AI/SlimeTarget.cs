@@ -8,6 +8,7 @@ public class SlimeTarget : MonoBehaviour
     public bool charmed = false;
     public bool levitate = false;
     public bool bait = false;
+    public bool sound = false;
     public bool invisibility = false;
     public bool water = false;
     public bool stun = false;
@@ -32,6 +33,11 @@ public class SlimeTarget : MonoBehaviour
     public void Bait()
     {
 
+    }
+
+    public void Sound()
+    {
+        sound = true;
     }
 
     public void Invisibility()

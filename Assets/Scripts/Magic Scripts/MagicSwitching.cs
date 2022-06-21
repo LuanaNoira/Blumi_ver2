@@ -13,6 +13,7 @@ public class MagicSwitching : MonoBehaviour
     public bool mPurification = false;
     public bool mTeleport = false;
     public bool mStun = false;
+    public bool mSound = false;
 
     void Start()
     {
@@ -58,22 +59,22 @@ public class MagicSwitching : MonoBehaviour
             selectedMagic = 2;
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha4) && (transform.childCount >= 4) && mInvisibility)
+        if (Input.GetKeyDown(KeyCode.Alpha4) && (transform.childCount >= 4) && mSound)
         {
             selectedMagic = 3;
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha5) && (transform.childCount >= 5) && mWater)
+        if (Input.GetKeyDown(KeyCode.Alpha5) && (transform.childCount >= 5) && mStun)
         {
             selectedMagic = 4;
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha6) && (transform.childCount >= 6) && mStun)
+        if (Input.GetKeyDown(KeyCode.Alpha6) && (transform.childCount >= 6) && mInvisibility)
         {
             selectedMagic = 5;
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha7) && (transform.childCount >= 7) && mTeleport)
+        if (Input.GetKeyDown(KeyCode.Alpha7) && (transform.childCount >= 7) && mWater)
         {
             selectedMagic = 6;
         }
