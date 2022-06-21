@@ -41,7 +41,7 @@ public class SlimeTarget : MonoBehaviour
 
     public void Water()
     {
-
+        water = true;
     }
 
     public void Stun()

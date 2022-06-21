@@ -35,7 +35,16 @@ public class ShootMagic : MonoBehaviour
 
 
             //FOCA
-
+            if ((slimes != null) && (slimes.CompareTag("SliFoca")) && (magia.CompareTag("Water")))
+                {
+                slimes.Water();
+                Debug.Log("toquei!");
+            }
+            if ((slimes != null) && (slimes.CompareTag("SliFoca")) && (magia.CompareTag("Charm")))
+            {
+                slimes.Charmed();
+                Debug.Log("toquei!");
+            }
 
             //FLOR
 

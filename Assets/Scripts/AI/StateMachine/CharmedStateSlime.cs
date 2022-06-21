@@ -35,6 +35,15 @@ public class CharmedStateSlime : StateMachineBehaviour
             }
         }
 
+        //FOCA
+        else if(animator.CompareTag("SliFoca"))
+        {
+            if(sLog.sFoca == false)
+            {
+                sLog.sFoca = true;
+            }
+        }
+
         //PIRATA
         else if(animator.CompareTag("Pirata"))
         {
