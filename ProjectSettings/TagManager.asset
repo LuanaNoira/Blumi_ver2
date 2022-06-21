@@ -26,6 +26,9 @@ TagManager:
   - SliGalinha
   - SliFlor
   - SliBorboleta
+  - Waypoint3
+  - Waypoint4
+  - Waypoint5
   layers:
   - Default
   - TransparentFX
