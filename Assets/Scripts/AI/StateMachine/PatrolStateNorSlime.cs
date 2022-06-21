@@ -37,7 +37,13 @@ public class PatrolStateNorSlime : StateMachineBehaviour
         if(wPointCheck.wPoint1)
             wPoint = GameObject.FindGameObjectWithTag("Waypoint1").GetComponent<GetPoint>();
         if(wPointCheck.wPoint2)
-            wPoint = GameObject.FindGameObjectWithTag("Waypoint2").GetComponent<GetPoint>(); 
+            wPoint = GameObject.FindGameObjectWithTag("Waypoint2").GetComponent<GetPoint>();
+        if (wPointCheck.wPoint3)
+            wPoint = GameObject.FindGameObjectWithTag("Waypoint3").GetComponent<GetPoint>();
+        if (wPointCheck.wPoint4)
+            wPoint = GameObject.FindGameObjectWithTag("Waypoint4").GetComponent<GetPoint>();
+        if (wPointCheck.wPoint5)
+            wPoint = GameObject.FindGameObjectWithTag("Waypoint5").GetComponent<GetPoint>();
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
