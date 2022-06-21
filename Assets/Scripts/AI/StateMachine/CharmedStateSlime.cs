@@ -9,9 +9,7 @@ public class CharmedStateSlime : StateMachineBehaviour
 
     float timer;
 
-    private SlimeTarget slimePirata;
-
-    Transform player;
+    private SlimeTarget slime;
 
     public Transform target;
 
@@ -23,18 +21,28 @@ public class CharmedStateSlime : StateMachineBehaviour
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         agent = animator.GetComponent<NavMeshAgent>();
-        player = GameObject.FindGameObjectWithTag("Player").transform;
         target = GameObject.FindGameObjectWithTag("slimePos1").transform;
-        slimePirata = animator.GetComponent<SlimeTarget>();
+        slime = animator.GetComponent<SlimeTarget>();
 
         sLog = GameObject.FindGameObjectWithTag("SlimeLog").GetComponent<SlimeLog>();
         
-        if (sLog.sPirata == false)
+        //AZUL
+        if(animator.CompareTag("SliAzul"))
         {
-            sLog.sPirata = true;
+            if (sLog.sAzul == false)
+            {
+                sLog.sAzul = true;
+            }
         }
 
-        //slimePirata.charmed = false;
+        //PIRATA
+        else if(animator.CompareTag("Pirata"))
+        {
+            if (sLog.sPirata == false)
+            {
+                sLog.sPirata = true;
+            }
+        }
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -49,7 +57,7 @@ public class CharmedStateSlime : StateMachineBehaviour
         else if (timer > charmedTime)
         {
             animator.SetBool("isCharmed", false);
-            slimePirata.charmed = false;
+            slime.charmed = false;
         }
         
         //mudar a animação de idle para walk se o jogador tiver-se a mover

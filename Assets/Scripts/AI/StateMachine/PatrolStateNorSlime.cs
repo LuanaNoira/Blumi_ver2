@@ -13,7 +13,7 @@ public class PatrolStateNorSlime : StateMachineBehaviour
     Transform player;
     [SerializeField] private float chaseRange = 8;
 
-    private SlimeTarget slimePirata;
+    private SlimeTarget slime;
 
     [SerializeField] private GetPoint wPoint;
     [SerializeField] private GetWaypoint wPointCheck;
@@ -32,7 +32,7 @@ public class PatrolStateNorSlime : StateMachineBehaviour
         //Speed no caso de precisar mexer
         //agent.speed = 1.5f;
 
-        slimePirata = animator.GetComponent<SlimeTarget>();
+        slime = animator.GetComponent<SlimeTarget>();
 
         if(wPointCheck.wPoint1)
             wPoint = GameObject.FindGameObjectWithTag("Waypoint1").GetComponent<GetPoint>();
@@ -50,22 +50,38 @@ public class PatrolStateNorSlime : StateMachineBehaviour
             agent.SetDestination(wPoint.GetRandomPoint());
         }
 
-        if (timer > Random.Range(7,10))
+        if (animator.CompareTag("Pirata"))
         {
-            animator.SetBool("isPatrolling", false);
-        }
+            if (timer > Random.Range(7, 10))
+            {
+                animator.SetBool("isPatrolling", false);
+            }
 
-        float distance = Vector3.Distance(player.position, animator.transform.position);
-        if (distance < chaseRange)
-        {
-            animator.SetBool("isChasing", true);
-        }
+            float distance = Vector3.Distance(player.position, animator.transform.position);
+            if (distance < chaseRange)
+            {
+                animator.SetBool("isChasing", true);
+            }
 
-        if (slimePirata.stun == true)
+            if (slime.stun == true)
+            {
+                timer = 0;
+                animator.SetBool("isPatrolling", false);
+                animator.SetBool("isStunned", true);
+            }
+        }
+        else if (animator.CompareTag("SliAzul"))
         {
-            timer = 0;
-            animator.SetBool("isPatrolling", false);
-            animator.SetBool("isStunned", true);
+            if (timer > Random.Range(7, 10))
+            {
+                animator.SetBool("isPatrolling", false);
+            }
+
+            if (slime.charmed)
+            {
+                animator.SetBool("isPatrolling", false);
+                animator.SetBool("isCharmed", true);
+            }
         }
     }
 
