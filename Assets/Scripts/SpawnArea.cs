@@ -65,7 +65,7 @@ public class SpawnArea : MonoBehaviour
                 zPos = Random.Range(zPosMin, zPosMax);
                 slimesList.Add( (GameObject)Instantiate(slimeSpawned, new Vector3(xPos, yPos, zPos), Quaternion.identity));
                 slimeCount += 1;
-                yield return new WaitForSeconds(Random.Range(0.1f, 2f));
+                yield return new WaitForSeconds(Random.Range(1, 3));
                 //slimeCount += 1;
             }
         }
@@ -88,9 +88,9 @@ public class SpawnArea : MonoBehaviour
             {
                 xPos = Random.Range(xPosMin, xPosMax);
                 zPos = Random.Range(zPosMin, zPosMax);
-                Instantiate(slimeSpawned, new Vector3(xPos, yPos, zPos), Quaternion.identity);
-                yield return new WaitForSeconds(Random.Range(0.1f, 1f));
+                slimesList.Add((GameObject)Instantiate(slimeSpawned, new Vector3(xPos, yPos, zPos), Quaternion.identity));
                 slimeCount += 1;
+                yield return new WaitForSeconds(Random.Range(1, 3));
             }
         }
         else if (sliFoca && (horario.dayTime == false))
@@ -111,9 +111,9 @@ public class SpawnArea : MonoBehaviour
             {
                 xPos = Random.Range(xPosMin, xPosMax);
                 zPos = Random.Range(zPosMin, zPosMax);
-                Instantiate(slimeSpawned, new Vector3(xPos, yPos, zPos), Quaternion.identity);
-                yield return new WaitForSeconds(0.1f);
+                slimesList.Add((GameObject)Instantiate(slimeSpawned, new Vector3(xPos, yPos, zPos), Quaternion.identity));
                 slimeCount += 1;
+                yield return new WaitForSeconds(Random.Range(1, 3));
             }
         } 
     }
