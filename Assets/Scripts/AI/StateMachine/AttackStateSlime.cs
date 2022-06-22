@@ -14,6 +14,9 @@ public class AttackStateSlime : StateMachineBehaviour
     //private bool attackingPlayer = false;
     //private bool attackingSlime = false;
 
+    //teste
+    private ClosestSlime slimesChased;
+
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
@@ -27,6 +30,9 @@ public class AttackStateSlime : StateMachineBehaviour
         if (animator.CompareTag("SliPesadelo"))
         {
             slimeChasedAzul = GameObject.FindGameObjectWithTag("SliAzul").transform;
+
+            //teste
+            slimesChased = animator.GetComponent<ClosestSlime>();
         }
     }
 
@@ -45,9 +51,12 @@ public class AttackStateSlime : StateMachineBehaviour
         }
         else if (slime.CompareTag("SliPesadelo"))
         {
-            float distance2 = Vector3.Distance(slimeChasedAzul.position, animator.transform.position);
+            //float distance2 = Vector3.Distance(slimeChasedAzul.position, animator.transform.position);
+            //teste
+            GameObject closest = slimesChased.FindClosestEnemy();
+            float distance2 = Vector3.Distance(closest.transform.position, animator.transform.position);
 
-            if(distance < distance2)
+            if (distance < distance2)
             {
                 animator.transform.LookAt(player);
                 //attackingPlayer = true;
@@ -58,7 +67,9 @@ public class AttackStateSlime : StateMachineBehaviour
             }
             else if(distance2 < distance)
             {
-                animator.transform.LookAt(slimeChasedAzul);
+                //animator.transform.LookAt(slimeChasedAzul);
+                //teste
+                animator.transform.LookAt(closest.transform);
                 //attackingSlime = true;
                 if (distance2 > 3.5f)
                 {

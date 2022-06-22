@@ -15,6 +15,9 @@ public class IdleStateNorSlime : StateMachineBehaviour
     private SlimeTarget slime;
     private Transform slimeChasedAzul;
 
+    //teste
+    private ClosestSlime slimesChased;
+
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
@@ -29,6 +32,9 @@ public class IdleStateNorSlime : StateMachineBehaviour
         if(animator.CompareTag("SliPesadelo"))
         {
             slimeChasedAzul = GameObject.FindGameObjectWithTag("SliAzul").transform;
+
+            //teste
+            slimesChased = animator.GetComponent<ClosestSlime>();
         }
         
         if (animator.CompareTag("Pirata") || animator.CompareTag("SliGalinha"))
@@ -89,7 +95,10 @@ public class IdleStateNorSlime : StateMachineBehaviour
         }
         else if(animator.CompareTag("SliPesadelo"))
         {
-            float distance2 = Vector3.Distance(slimeChasedAzul.position, animator.transform.position);
+            //float distance2 = Vector3.Distance(slimeChasedAzul.position, animator.transform.position);
+            //teste
+            GameObject closest = slimesChased.FindClosestEnemy();
+            float distance2 = Vector3.Distance(closest.transform.position, animator.transform.position);
 
             if (timer > Random.Range(5, 8))
             {
@@ -105,10 +114,11 @@ public class IdleStateNorSlime : StateMachineBehaviour
             {
                 animator.SetBool("isChasing", true);
             }
+            /*
             else if(((distance < chaseRange) || (distance2 < chaseRange)) && distance == distance2)
             {
                 animator.SetBool("isChasing", true);
-            }
+            } */
 
             if (slime.purify == true)
             {

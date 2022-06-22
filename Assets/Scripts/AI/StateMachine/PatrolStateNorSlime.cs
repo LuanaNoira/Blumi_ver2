@@ -16,6 +16,9 @@ public class PatrolStateNorSlime : StateMachineBehaviour
     private SlimeTarget slime;
     private Transform slimeChasedAzul;
 
+    //teste
+    private ClosestSlime slimesChased;
+
     [SerializeField] private GetPoint wPoint;
     [SerializeField] private GetWaypoint wPointCheck;
 
@@ -36,6 +39,9 @@ public class PatrolStateNorSlime : StateMachineBehaviour
         if (animator.CompareTag("SliPesadelo"))
         {
             slimeChasedAzul = GameObject.FindGameObjectWithTag("SliAzul").transform;
+
+            //teste
+            slimesChased = animator.GetComponent<ClosestSlime>();
         }
 
         slime = animator.GetComponent<SlimeTarget>();
@@ -98,7 +104,11 @@ public class PatrolStateNorSlime : StateMachineBehaviour
         }
         else if (animator.CompareTag("SliPesadelo"))
         {
-            float distance2 = Vector3.Distance(slimeChasedAzul.position, animator.transform.position);
+            //float distance2 = Vector3.Distance(slimeChasedAzul.position, animator.transform.position);
+            //teste
+            GameObject closest = slimesChased.FindClosestEnemy();
+            float distance2 = Vector3.Distance(closest.transform.position, animator.transform.position);
+
 
             if (timer > Random.Range(12, 18))
             {
@@ -113,10 +123,11 @@ public class PatrolStateNorSlime : StateMachineBehaviour
             {
                 animator.SetBool("isChasing", true);
             }
+            /*
             else if (((distance < chaseRange) || (distance2 < chaseRange)) && distance == distance2)
             {
                 animator.SetBool("isChasing", true);
-            }
+            } */
 
             if (slime.purify == true)
             {
