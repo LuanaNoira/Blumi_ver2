@@ -10,7 +10,7 @@ public class AttackStateSlime : StateMachineBehaviour
     Transform player;
 
     private SlimeTarget slime;
-    private Transform slimeChasedAzul;
+    //private Transform slimeChasedAzul;
     //private bool attackingPlayer = false;
     //private bool attackingSlime = false;
 
@@ -29,7 +29,7 @@ public class AttackStateSlime : StateMachineBehaviour
 
         if (animator.CompareTag("SliPesadelo"))
         {
-            slimeChasedAzul = GameObject.FindGameObjectWithTag("SliAzul").transform;
+            //slimeChasedAzul = GameObject.FindGameObjectWithTag("SliAzul").transform;
 
             //teste
             slimesChased = animator.GetComponent<ClosestSlime>();
@@ -47,6 +47,11 @@ public class AttackStateSlime : StateMachineBehaviour
             if (distance > 3.5f)
             {
                 animator.SetBool("isAttacking", false);
+            }
+            if (slime.stun == true)
+            {
+                animator.SetBool("isAttacking", false);
+                animator.SetBool("isStunned", true);
             }
         }
         else if (slime.CompareTag("SliPesadelo"))
@@ -75,6 +80,11 @@ public class AttackStateSlime : StateMachineBehaviour
                 {
                     animator.SetBool("isAttacking", false);
                 }
+            }
+            if (slime.purify == true)
+            {
+                animator.SetBool("isAttacking", false);
+                animator.SetBool("isPurified", true);
             }
         }
     }

@@ -14,7 +14,7 @@ public class PatrolStateNorSlime : StateMachineBehaviour
     [SerializeField] private float chaseRange = 8;
 
     private SlimeTarget slime;
-    private Transform slimeChasedAzul;
+    //private Transform slimeChasedAzul;
 
     //teste
     private ClosestSlime slimesChased;
@@ -38,7 +38,7 @@ public class PatrolStateNorSlime : StateMachineBehaviour
 
         if (animator.CompareTag("SliPesadelo"))
         {
-            slimeChasedAzul = GameObject.FindGameObjectWithTag("SliAzul").transform;
+            //slimeChasedAzul = GameObject.FindGameObjectWithTag("SliAzul").transform;
 
             //teste
             slimesChased = animator.GetComponent<ClosestSlime>();
