@@ -89,6 +89,24 @@ public class PatrolStateNorSlime : StateMachineBehaviour
                 animator.SetBool("isStunned", true);
             }
         }
+        else if (animator.CompareTag("SliGalinha"))
+        {
+            if(timer > Random.Range(7, 10))
+            {
+                animator.SetBool("isPatrolling", false);
+            }
+
+            if(distance < chaseRange)
+            {
+                animator.SetBool("isRunning", true);
+            }
+
+            if(slime.stun)
+            {
+                animator.SetBool("isPatrolling", false);
+                animator.SetBool("isStunned", true);
+            }
+        }
         else if (animator.CompareTag("SliAzul"))
         {
             if (timer > Random.Range(7, 10))
@@ -141,6 +159,7 @@ public class PatrolStateNorSlime : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+        timer = 0;
         agent.SetDestination(agent.transform.position);
         animator.SetBool("isPatrolling", false);
     }

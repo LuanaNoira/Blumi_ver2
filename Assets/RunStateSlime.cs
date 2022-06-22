@@ -3,66 +3,40 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class StunStateSlime : StateMachineBehaviour
+public class RunStateSlime : StateMachineBehaviour
 {
     private NavMeshAgent agent;
 
-    float timer;
+    Transform player;
 
-    private SlimeTarget slime;
-
-    [SerializeField] private float stunnedTime = 7;
+    [SerializeField] float distanceRun = 4.0f;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         agent = animator.GetComponent<NavMeshAgent>();
-        timer = 0;
-
-        agent.autoBraking = true;
-
-        agent.SetDestination(agent.transform.position);
-        slime = animator.GetComponent<SlimeTarget>();
-
-        animator.SetBool("isStunFace", true);
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        timer += Time.deltaTime;
+        float distance = Vector3.Distance(animator.transform.position, player.position);
 
-        if (timer > stunnedTime && slime.charmed == false)
+        if (distance < distanceRun)
         {
-            animator.SetBool("isStunned", false);
-            animator.SetBool("isPatrolling", true);
-            animator.SetBool("isStunFace", false);
-            slime.stun = false;
-        }
-        /*
-        else if (timer > stunnedTime && slimePirata.charmed == true)
-        {
-            animator.SetBool("isStunned", false);
-            animator.SetBool("isCharmed", true);
-            slimePirata.stun = false;
-        }*/
-        else if (timer < stunnedTime && slime.charmed == true)
-        {
-            animator.SetBool("isStunned", false);
-            animator.SetBool("isCharmed", true);
-            animator.SetBool("isStunFace", false);
-            slime.stun = false;
-        }
-        else if(timer < stunnedTime && slime.charmed == false)
-        {
-            agent.SetDestination(animator.transform.position);
+            Vector3 dirToPlayer = animator.transform.position - player.position;
+
+            Vector3 newPos = animator.transform.position + dirToPlayer;
+
+            agent.SetDestination(newPos);
         }
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-
+        
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

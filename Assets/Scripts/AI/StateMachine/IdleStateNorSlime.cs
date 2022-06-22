@@ -66,7 +66,7 @@ public class IdleStateNorSlime : StateMachineBehaviour
                 animator.SetBool("isChasing", true);
             }
 
-            if (slime.stun == true)
+            if (slime.stun)
             {
                 timer = 0;
                 animator.SetBool("isStunned", true);
@@ -83,6 +83,23 @@ public class IdleStateNorSlime : StateMachineBehaviour
             {
                 animator.SetBool("isPatrolling", false);
                 animator.SetBool("isCharmed", true);
+            }
+        }
+        else if(animator.CompareTag("SliGalinha"))
+        {
+            if (timer > Random.Range(4,7))
+            {
+                animator.SetBool("isPatrolling", true);
+            }
+
+            if (distance < chaseRange)
+            {
+                animator.SetBool("isRunning", true);
+            }
+
+            if (slime.stun)
+            {
+                animator.SetBool("isStunned", true);
             }
         }
         else if(animator.CompareTag("SliFoca"))
@@ -131,6 +148,7 @@ public class IdleStateNorSlime : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+        timer = 0;
         if(!animator.CompareTag("SliAzul"))
         {
             slime.charmed = false;
