@@ -7370,6 +7370,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d6aaf9ece74c8e4a9fe0dc776b4334c, type: 3}
+--- !u!1 &301655608 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7924161159095741181, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
+  m_PrefabInstance: {fileID: 1442241495}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &301655611
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301655608}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0e321d52a3312484293686329bd6c241, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &314375584
 GameObject:
   m_ObjectHideFlags: 0
@@ -31382,14 +31406,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.7361023
       objectReference: {fileID: 0}
-    - target: {fileID: 2176241207285397099, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
-      propertyPath: m_TagString
-      value: Charm
-      objectReference: {fileID: 0}
-    - target: {fileID: 2176241207285397099, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2176241207285397100, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
       propertyPath: magia
       value: 
@@ -31399,10 +31415,6 @@ PrefabInstance:
       value: Invisibility
       objectReference: {fileID: 0}
     - target: {fileID: 2176241207323890997, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2176241207820203819, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -34412,7 +34424,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7400423795202797639, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -58.220764
+      value: -58.146
       objectReference: {fileID: 0}
     - target: {fileID: 7400423795202797639, guid: 4ac8308ce6b00bf4a902c8257aa3774e, type: 3}
       propertyPath: m_LocalPosition.z
