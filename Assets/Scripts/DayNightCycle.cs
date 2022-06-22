@@ -83,7 +83,7 @@ public class DayNightCycle : MonoBehaviour
         RenderSettings.reflectionIntensity = reflectionsIntensityMultiplier.Evaluate(time);
 
 
-        if ((time <= 0.22f) || (time >= 0.78f))
+        if ((time <= 0.25f) || (time >= 0.78f))
         {
             dayTime = false;
         }

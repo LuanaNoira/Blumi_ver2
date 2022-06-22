@@ -4730,6 +4730,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 194351836}
   m_CullTransparentMesh: 1
+--- !u!1 &195024446 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5828091363247136809, guid: fd8ab260f05ef294cb00cf212d413ce0, type: 3}
+  m_PrefabInstance: {fileID: 973254979}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &196545335
 GameObject:
   m_ObjectHideFlags: 0
@@ -21277,6 +21282,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1094083181}
     m_Modifications:
+    - target: {fileID: 1371661128866180007, guid: fd8ab260f05ef294cb00cf212d413ce0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1590654302003329692, guid: fd8ab260f05ef294cb00cf212d413ce0, type: 3}
       propertyPath: m_Name
       value: Alana_InGame_Idle
@@ -21325,6 +21334,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5828091363247136809, guid: fd8ab260f05ef294cb00cf212d413ce0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703568634782762329, guid: fd8ab260f05ef294cb00cf212d413ce0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b2cf70276bcb9954c8af943305fe6679, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd8ab260f05ef294cb00cf212d413ce0, type: 3}
 --- !u!4 &978752453 stripped
@@ -37583,6 +37600,28 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4965270263476978590, guid: 2d6aaf9ece74c8e4a9fe0dc776b4334c, type: 3}
   m_PrefabInstance: {fileID: 428532456}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1886879127 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7861951391117641298, guid: fd8ab260f05ef294cb00cf212d413ce0, type: 3}
+  m_PrefabInstance: {fileID: 973254979}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1886879129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886879127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 326600665a4b8df4bad9307514d33863, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  horario: {fileID: 421232879}
+  luz: {fileID: 195024446}
+  material:
+  - {fileID: 2100000, guid: b2cf70276bcb9954c8af943305fe6679, type: 2}
+  - {fileID: 2100000, guid: 42dd108e519b1d7498d33a8888388b19, type: 2}
 --- !u!4 &1887560734 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7663016467175581850, guid: 81fa35ff0eba8e2448aaa921f917268e, type: 3}
