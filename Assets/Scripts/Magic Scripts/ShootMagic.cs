@@ -7,11 +7,20 @@ public class ShootMagic : MonoBehaviour
 
     [SerializeField] private GameObject magia;
 
+    [SerializeField] private AudioClip magicSound;
+    [SerializeField] private AudioSource audiosource;
+
+    private void Start()
+    {
+        audiosource = FindObjectOfType<MagicSwitching>().GetComponent<AudioSource>();
+    }
+
     void Update()
     {
         if(Input.GetButtonDown("Fire1"))
         {
             Shoot();
+            audiosource.PlayOneShot(audiosource.clip);
         }
     }
 
