@@ -32,7 +32,16 @@ public class ShootMagic : MonoBehaviour
             }
 
             //GALINHA
-
+            if ((slimes != null) && (slimes.CompareTag("SliGalinha")) && (magia.CompareTag("Stun")))
+            {
+                slimes.Stun();
+                Debug.Log("toquei!");
+            }
+            if ((slimes != null) && (slimes.CompareTag("SliGalinha")) && (magia.CompareTag("Charm")))
+            {
+                slimes.Charmed();
+                Debug.Log("toquei!");
+            }
 
             //FOCA
             if ((slimes != null) && (slimes.CompareTag("SliFoca")) && (magia.CompareTag("Sound")))

@@ -35,6 +35,16 @@ public class CharmedStateSlime : StateMachineBehaviour
             }
         }
 
+        //GALINHA
+        else if(animator.CompareTag("SliGalinha"))
+        {
+            agent.speed = 2f;
+            if(sLog.sGalinha == false)
+            {
+                sLog.sGalinha = true;
+            }
+        }
+
         //FOCA
         else if(animator.CompareTag("SliFoca"))
         {

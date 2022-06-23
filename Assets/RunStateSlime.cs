@@ -9,6 +9,8 @@ public class RunStateSlime : StateMachineBehaviour
 
     Transform player;
 
+    private SlimeTarget slime;
+
     [SerializeField] float distanceRun = 4.0f;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
@@ -16,6 +18,10 @@ public class RunStateSlime : StateMachineBehaviour
     {
         agent = animator.GetComponent<NavMeshAgent>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
+
+        agent.speed = 3.5f;
+
+        slime = animator.GetComponent<SlimeTarget>();
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -30,6 +36,17 @@ public class RunStateSlime : StateMachineBehaviour
             Vector3 newPos = animator.transform.position + dirToPlayer;
 
             agent.SetDestination(newPos);
+        }
+        else if (distance > distanceRun)
+        {
+            animator.SetBool("isRunning", false);
+        }
+
+        if(slime.stun)
+        {
+            animator.SetBool("isRunning", false);
+            animator.SetBool("isStunned", true);
+            animator.SetBool("isStunFace", true);
         }
     }
 

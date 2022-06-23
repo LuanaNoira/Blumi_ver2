@@ -18,6 +18,7 @@ public class PatrolStateNorSlime : StateMachineBehaviour
 
     //teste
     private ClosestSlime slimesChased;
+    float aniTimer;
 
     [SerializeField] private GetPoint wPoint;
     [SerializeField] private GetWaypoint wPointCheck;
@@ -42,6 +43,10 @@ public class PatrolStateNorSlime : StateMachineBehaviour
 
             //teste
             slimesChased = animator.GetComponent<ClosestSlime>();
+        }
+        if (animator.CompareTag("SliGalinha"))
+        {
+            agent.speed = 2f;
         }
 
         slime = animator.GetComponent<SlimeTarget>();
@@ -126,20 +131,33 @@ public class PatrolStateNorSlime : StateMachineBehaviour
             //teste
             GameObject closest = slimesChased.FindClosestEnemy();
             float distance2 = Vector3.Distance(closest.transform.position, animator.transform.position);
+            //aniTimer = 0;
+            aniTimer += Time.deltaTime;
+            if (aniTimer <= 0.7f)
+                agent.speed = 0;
+            else if (aniTimer <= 2.04f && aniTimer > 0.79f)
+                agent.speed = 3.5f;
+            else if (aniTimer > 2.04f && aniTimer <= 2.54f)
+                agent.speed = 0;
+            else if (aniTimer > 2.54f)
+                aniTimer = 0;
 
 
             if (timer > Random.Range(12, 18))
             {
                 animator.SetBool("isPatrolling", false);
+                aniTimer = 0; 
             }
 
             if ((distance < chaseRange) && (distance < distance2))
             {
                 animator.SetBool("isChasing", true);
+                aniTimer = 0;
             }
             else if ((distance2 < chaseRange) && (distance2 < distance))
             {
                 animator.SetBool("isChasing", true);
+                aniTimer = 0;
             }
             /*
             else if (((distance < chaseRange) || (distance2 < chaseRange)) && distance == distance2)
@@ -162,6 +180,9 @@ public class PatrolStateNorSlime : StateMachineBehaviour
         timer = 0;
         agent.SetDestination(agent.transform.position);
         animator.SetBool("isPatrolling", false);
+
+        if (animator.CompareTag("SliPesadelo"))
+            agent.speed = 3.5f;
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

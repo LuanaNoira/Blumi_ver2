@@ -45,7 +45,7 @@ public class PAUSEMENU : MonoBehaviour
         Time.timeScale = 1f;
         GameisPaused = false;
         Cursor.visible = false;
-        magicSwitch.GetComponent<MagicSwitching>().enabled = true;
+        magicSwitch.SetActive(true);
         abilityUI.SetActive(true);
         crosshair.SetActive(true);
         slimeLogOn = false;
@@ -58,7 +58,7 @@ public class PAUSEMENU : MonoBehaviour
         Time.timeScale = 0f;
         GameisPaused = true;
         Cursor.visible = true;
-        magicSwitch.GetComponent<MagicSwitching>().enabled = false;
+        magicSwitch.SetActive(false);
         abilityUI.SetActive(false);
         crosshair.SetActive(false);
     }

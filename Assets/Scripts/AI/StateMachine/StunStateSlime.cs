@@ -25,6 +25,11 @@ public class StunStateSlime : StateMachineBehaviour
         slime = animator.GetComponent<SlimeTarget>();
 
         animator.SetBool("isStunFace", true);
+        slime.charmed = false;
+        if(animator.CompareTag("Pirata"))
+        {
+            animator.SetBool("isAttacking", false);
+        }
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks

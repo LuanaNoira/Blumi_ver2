@@ -17,6 +17,7 @@ public class ChaseStateSlime : StateMachineBehaviour
 
     //teste
     private ClosestSlime slimesChased;
+    float aniTimer;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -68,6 +69,16 @@ public class ChaseStateSlime : StateMachineBehaviour
             GameObject closest = slimesChased.FindClosestEnemy();
             float distance2 = Vector3.Distance(closest.transform.position, animator.transform.position);
 
+            aniTimer += Time.deltaTime;
+            if (aniTimer <= 0.7f)
+                agent.speed = 0;
+            else if (aniTimer <= 2.04f && aniTimer > 0.79f)
+                agent.speed = 3.5f;
+            else if (aniTimer > 2.04f && aniTimer <= 2.54f)
+                agent.speed = 0;
+            else if (aniTimer > 2.54f)
+                aniTimer = 0;
+
             if (distance < distance2)
             {
                 agent.SetDestination(player.position);
@@ -85,10 +96,12 @@ public class ChaseStateSlime : StateMachineBehaviour
             if ((distance > 15) && chasingPlayer && chasingSlime == false)
             {
                 animator.SetBool("isChasing", false);
+                aniTimer = 0;
             }
             else if ((distance2 > 15) && chasingPlayer == false && chasingSlime)
             {
                 animator.SetBool("isChasing", false);
+                aniTimer = 0;
             }
             if ((distance < 2.5f) && chasingPlayer && chasingSlime == false)
             {
@@ -115,6 +128,7 @@ public class ChaseStateSlime : StateMachineBehaviour
         {
             chasingPlayer = false;
             chasingSlime = false;
+            aniTimer = 0;
         }
 
         agent.SetDestination(animator.transform.position);
