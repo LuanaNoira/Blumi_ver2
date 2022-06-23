@@ -23,6 +23,9 @@ public class PatrolStateNorSlime : StateMachineBehaviour
     [SerializeField] private GetPoint wPoint;
     [SerializeField] private GetWaypoint wPointCheck;
 
+    //teste
+    [SerializeField] float randomNumber;
+
     //OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
@@ -36,6 +39,8 @@ public class PatrolStateNorSlime : StateMachineBehaviour
 
         //Speed no caso de precisar mexer
         //agent.speed = 1.5f;
+
+        randomNumber = Random.Range(7, 10);
 
         if (animator.CompareTag("SliPesadelo"))
         {
@@ -77,7 +82,7 @@ public class PatrolStateNorSlime : StateMachineBehaviour
 
         if (animator.CompareTag("Pirata"))
         {
-            if (timer > Random.Range(7, 10))
+            if (timer > randomNumber)
             {
                 animator.SetBool("isPatrolling", false);
             }
@@ -96,7 +101,7 @@ public class PatrolStateNorSlime : StateMachineBehaviour
         }
         else if (animator.CompareTag("SliGalinha"))
         {
-            if(timer > Random.Range(7, 10))
+            if(timer > randomNumber)
             {
                 animator.SetBool("isPatrolling", false);
             }
@@ -114,7 +119,7 @@ public class PatrolStateNorSlime : StateMachineBehaviour
         }
         else if (animator.CompareTag("SliAzul"))
         {
-            if (timer > Random.Range(7, 10))
+            if (timer > randomNumber)
             {
                 animator.SetBool("isPatrolling", false);
             }
@@ -177,6 +182,7 @@ public class PatrolStateNorSlime : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+        randomNumber = Random.Range(7, 10);
         timer = 0;
         agent.SetDestination(agent.transform.position);
         animator.SetBool("isPatrolling", false);

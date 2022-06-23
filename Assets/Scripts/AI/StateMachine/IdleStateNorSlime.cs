@@ -18,6 +18,9 @@ public class IdleStateNorSlime : StateMachineBehaviour
     //teste
     private ClosestSlime slimesChased;
 
+    //teste
+    [SerializeField] float randomNumber;
+
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
@@ -29,7 +32,9 @@ public class IdleStateNorSlime : StateMachineBehaviour
 
         slime = animator.GetComponent<SlimeTarget>();
 
-        if(animator.CompareTag("SliPesadelo"))
+        randomNumber = Random.Range(4, 7);
+
+        if (animator.CompareTag("SliPesadelo"))
         {
             //slimeChasedAzul = GameObject.FindGameObjectWithTag("SliAzul").transform;
 
@@ -55,7 +60,7 @@ public class IdleStateNorSlime : StateMachineBehaviour
 
         if (animator.CompareTag("Pirata"))
         {
-            if (timer > Random.Range(4, 7))
+            if (timer > randomNumber)
             {
                 animator.SetBool("isPatrolling", true);
             }
@@ -74,7 +79,7 @@ public class IdleStateNorSlime : StateMachineBehaviour
         }
         else if(animator.CompareTag("SliAzul"))
         {
-            if (timer > Random.Range(4, 7))
+            if (timer > randomNumber)
             {
                 animator.SetBool("isPatrolling", true);
             }
@@ -87,7 +92,7 @@ public class IdleStateNorSlime : StateMachineBehaviour
         }
         else if(animator.CompareTag("SliGalinha"))
         {
-            if (timer > Random.Range(4,7))
+            if (timer > randomNumber)
             {
                 animator.SetBool("isPatrolling", true);
             }
@@ -149,7 +154,8 @@ public class IdleStateNorSlime : StateMachineBehaviour
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         timer = 0;
-        if(!animator.CompareTag("SliAzul"))
+        randomNumber = Random.Range(4, 7);
+        if (!animator.CompareTag("SliAzul"))
         {
             slime.charmed = false;
         }
