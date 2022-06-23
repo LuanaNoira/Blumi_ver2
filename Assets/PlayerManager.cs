@@ -35,9 +35,11 @@ public class PlayerManager : MonoBehaviour
             pauseMenu.GetComponent<PAUSEMENU>().enabled = false;
             if(timer > 5f)
             {
+                isGameOver = false;
                 unconciusScreen.SetActive(false);
                 player.GetComponent<PlayerMovement>().enabled = true;
                 pauseMenu.GetComponent<PAUSEMENU>().enabled = true;
+                playerHP = 5;
             }
 
         }
