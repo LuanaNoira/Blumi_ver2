@@ -3322,10 +3322,10 @@ RectTransform:
   m_Father: {fileID: 1607751945}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &145631154
 PrefabInstance:
@@ -16623,8 +16623,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 889.62036, y: 448}
+  m_AnchoredPosition: {x: -0.0010375977, y: 0.00021362305}
+  m_SizeDelta: {x: 730.84, y: 398.38}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &710741366
 MonoBehaviour:
@@ -22688,9 +22688,9 @@ RectTransform:
   m_Father: {fileID: 140949228}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -73}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 208}
   m_SizeDelta: {x: 930.4194, y: 465.2097}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1026398286
@@ -44769,12 +44769,31 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8788744526658370356}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.06
   m_Height: 0.027757164
   m_Direction: 1
   m_Center: {x: 0.0000019073486, y: -0.00042454584, z: 0.02185278}
+--- !u!114 &8788744526658370359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8788744526658370356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d160e5b0abb3e3a4880e85b991670ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueKey: {fileID: 534601825}
+  DialogueInput: 101
+  isInRange: 0
+  isShowing: 0
+  abilityUI: {fileID: 514059737}
+  popUp: "Todos os representantes da plan\xEDcie dever\xE3o reunir-se para deixar
+    o escolhido passar."
 --- !u!1001 &9056783163977235833
 PrefabInstance:
   m_ObjectHideFlags: 0
