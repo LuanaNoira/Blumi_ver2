@@ -11,7 +11,7 @@ public class RunStateSlime : StateMachineBehaviour
 
     private SlimeTarget slime;
 
-    [SerializeField] float distanceRun = 4.0f;
+    [SerializeField] float distanceRun = 5.0f;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -40,6 +40,7 @@ public class RunStateSlime : StateMachineBehaviour
         else if (distance > distanceRun)
         {
             animator.SetBool("isRunning", false);
+            animator.SetBool("isPatrolling", true);
         }
 
         if(slime.stun)

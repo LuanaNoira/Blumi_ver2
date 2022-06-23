@@ -13,6 +13,8 @@ public class StunStateSlime : StateMachineBehaviour
 
     [SerializeField] private float stunnedTime = 7;
 
+    [SerializeField] ParticleSystem [] stunParticle;
+
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
@@ -23,6 +25,12 @@ public class StunStateSlime : StateMachineBehaviour
 
         agent.SetDestination(agent.transform.position);
         slime = animator.GetComponent<SlimeTarget>();
+
+        //stunParticle = GameObject.FindGameObjectWithTag("StunParticle").GetComponent<ParticleSystem>();
+
+        stunParticle = animator.GetComponentsInChildren<ParticleSystem>();
+
+        stunParticle[0].Play();
 
         animator.SetBool("isStunFace", true);
         slime.charmed = false;
@@ -67,7 +75,7 @@ public class StunStateSlime : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-
+        stunParticle[0].Stop();
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

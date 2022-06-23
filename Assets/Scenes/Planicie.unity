@@ -21346,6 +21346,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b2cf70276bcb9954c8af943305fe6679, type: 2}
+    - target: {fileID: 8407502903475938344, guid: fd8ab260f05ef294cb00cf212d413ce0, type: 3}
+      propertyPath: mStun
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd8ab260f05ef294cb00cf212d413ce0, type: 3}
 --- !u!4 &978752453 stripped
@@ -43631,26 +43635,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1546599403}
     m_Modifications:
-    - target: {fileID: 737770619735209555, guid: 5f26fb9632dd92b4799142096e1feef3, type: 3}
-      propertyPath: m_Speed
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 737770619735209555, guid: 5f26fb9632dd92b4799142096e1feef3, type: 3}
-      propertyPath: m_Height
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 737770619735209555, guid: 5f26fb9632dd92b4799142096e1feef3, type: 3}
-      propertyPath: m_Radius
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 737770619735209555, guid: 5f26fb9632dd92b4799142096e1feef3, type: 3}
-      propertyPath: m_AutoBraking
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 737770619735209555, guid: 5f26fb9632dd92b4799142096e1feef3, type: 3}
-      propertyPath: m_AngularSpeed
-      value: 240
-      objectReference: {fileID: 0}
     - target: {fileID: 2539863023893812521, guid: 5f26fb9632dd92b4799142096e1feef3, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -43699,12 +43683,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: SlimeGalinha
       objectReference: {fileID: 0}
-    - target: {fileID: 2915156457062616979, guid: 5f26fb9632dd92b4799142096e1feef3, type: 3}
-      propertyPath: m_TagString
-      value: SliGalinha
-      objectReference: {fileID: 0}
-    - target: {fileID: 5754499952490822718, guid: 5f26fb9632dd92b4799142096e1feef3, type: 3}
-      propertyPath: wPoint1
+    - target: {fileID: 5273905641072369490, guid: 5f26fb9632dd92b4799142096e1feef3, type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -43929,7 +43909,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8174386938477279035, guid: 3a0c6a8cad37a7549b8dbec30f4f89f6, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8807511659946421633, guid: 3a0c6a8cad37a7549b8dbec30f4f89f6, type: 3}
       propertyPath: m_RootOrder

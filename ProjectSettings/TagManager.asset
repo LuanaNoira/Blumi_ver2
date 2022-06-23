@@ -30,6 +30,8 @@ TagManager:
   - Waypoint4
   - Waypoint5
   - Sound
+  - StunParticle
+  - AngryParticle
   layers:
   - Default
   - TransparentFX

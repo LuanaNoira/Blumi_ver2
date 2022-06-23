@@ -18,6 +18,7 @@ public class ChaseStateSlime : StateMachineBehaviour
     //teste
     private ClosestSlime slimesChased;
     float aniTimer;
+    [SerializeField] ParticleSystem[] angryParticle;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -30,6 +31,13 @@ public class ChaseStateSlime : StateMachineBehaviour
         agent.autoBraking = false;
 
         slime = animator.GetComponent<SlimeTarget>();
+        
+        if(animator.CompareTag("Pirata"))
+        {
+            angryParticle = animator.GetComponentsInChildren<ParticleSystem>();
+            angryParticle[1].Play();
+        }
+
         if (animator.CompareTag("SliPesadelo"))
         {
             //slimeChasedAzul = GameObject.FindGameObjectWithTag("SliAzul").transform;
@@ -129,6 +137,10 @@ public class ChaseStateSlime : StateMachineBehaviour
             chasingPlayer = false;
             chasingSlime = false;
             aniTimer = 0;
+        }
+        if(slime.CompareTag("Pirata"))
+        {
+            angryParticle[1].Stop();
         }
 
         agent.SetDestination(animator.transform.position);

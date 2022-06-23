@@ -264,6 +264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bb258f36142a2a42be6098b106b201d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  angryParticle: []
 --- !u!1102 &-4869015741469907976
 AnimatorState:
   serializedVersion: 6
@@ -332,6 +333,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stunnedTime: 7
+  stunParticle:
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &-3665974249851647957
 MonoBehaviour:
   m_ObjectHideFlags: 1
