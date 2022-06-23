@@ -19,13 +19,14 @@ public class Clue : MonoBehaviour
     public void Start()
     {
         pMenu = GameObject.Find("PauseMenu").GetComponent<PAUSEMENU>();
+        this.gameObject.GetComponent<Clue>().enabled = false;
     }
 
     private void Update()
     {
         if(Input.GetKeyDown(DialogueInput))
         {
-            if(isInRange && (isShowing == false))
+            if (isInRange && (isShowing == false))
             {
                 ShowPopUp();
                 isShowing = true;
@@ -86,6 +87,7 @@ public class Clue : MonoBehaviour
         {
             isInRange = true;
             dialogueKey.SetActive(true);
+            this.gameObject.GetComponent<Clue>().enabled = true;
         }
     }
 
@@ -96,6 +98,7 @@ public class Clue : MonoBehaviour
             DontShowPopUp();
             dialogueKey.SetActive(false);
             isInRange = false;
+            this.gameObject.GetComponent<Clue>().enabled = false;
         }
     }
 }
