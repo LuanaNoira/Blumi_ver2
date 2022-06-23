@@ -17536,6 +17536,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 03_Slime_Flor_Rigged_TESTE
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c313151bd3755c248ac8f627d07fdea3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7236979459014961790, guid: c313151bd3755c248ac8f627d07fdea3, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -18880,6 +18884,10 @@ PrefabInstance:
     - target: {fileID: 7278929130124756628, guid: 10002410e53242848ba446c02833a644, type: 3}
       propertyPath: m_Name
       value: Slime gordo (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278929130124756628, guid: 10002410e53242848ba446c02833a644, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7278929130124756628, guid: 10002410e53242848ba446c02833a644, type: 3}
       propertyPath: m_TagString
@@ -25874,6 +25882,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 29e02cd50357e4c4ca1137a55d96bde0, type: 3}
       propertyPath: m_Name
       value: 02_Slime_Borboleta_Rigged
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 29e02cd50357e4c4ca1137a55d96bde0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6466587407562905052, guid: 29e02cd50357e4c4ca1137a55d96bde0, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -43828,6 +43840,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SlimeFoca
       objectReference: {fileID: 0}
+    - target: {fileID: 1291360028830755867, guid: 8199b58941e7de2498c9646e1a82c04d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1918539721192519329, guid: 8199b58941e7de2498c9646e1a82c04d, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -44513,6 +44529,10 @@ PrefabInstance:
     - target: {fileID: 2915156457062616979, guid: 5f26fb9632dd92b4799142096e1feef3, type: 3}
       propertyPath: m_Name
       value: SlimeGalinha
+      objectReference: {fileID: 0}
+    - target: {fileID: 2915156457062616979, guid: 5f26fb9632dd92b4799142096e1feef3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5273905641072369490, guid: 5f26fb9632dd92b4799142096e1feef3, type: 3}
       propertyPath: m_IsActive
