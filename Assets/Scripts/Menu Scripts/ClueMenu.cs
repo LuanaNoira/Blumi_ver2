@@ -15,7 +15,7 @@ public class ClueMenu : MonoBehaviour
         popUpBox.SetActive(false);
         popUpText.text = null;
 
-        audiosource = FindObjectOfType<AudioSource>().GetComponent<AudioSource>();
+        audiosource = this.gameObject.GetComponent<AudioSource>();
     }
     public void PopUp(string text)
     {

@@ -33,6 +33,7 @@ TagManager:
   - StunParticle
   - AngryParticle
   - Gordo
+  - InteractSound
   layers:
   - Default
   - TransparentFX

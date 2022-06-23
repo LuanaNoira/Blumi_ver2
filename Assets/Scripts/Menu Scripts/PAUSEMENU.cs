@@ -22,7 +22,7 @@ public class PAUSEMENU : MonoBehaviour
 
     private void Start()
     {
-        audiosource = FindObjectOfType<AudioSource>().GetComponent<AudioSource>();
+        audiosource = this.gameObject.GetComponent<AudioSource>();
     }
 
     private void Update()
