@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 01b4ad7762308664eb996eac5bb0b13d
   - enabled: 1
+    path: Assets/Scenes/Cutscene.unity
+    guid: 829ba68107d649c4dbabf3566d79d6de
+  - enabled: 1
     path: Assets/Scenes/Planicie.unity
     guid: 5fa8c7166b1a5b746be64021d9994fbc
   m_configObjects: {}

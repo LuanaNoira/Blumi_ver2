@@ -7,12 +7,12 @@ public class TutorialManager : MonoBehaviour
     public GameObject[] popUps;
     private int popUpIndex;
 
-    
+
     private void Update()
     {
         for (int i = 0; i < popUps.Length; i++)
         {
-            if(i== popUpIndex)
+            if (i == popUpIndex)
             {
                 popUps[popUpIndex].SetActive(true);
             }
@@ -22,12 +22,14 @@ public class TutorialManager : MonoBehaviour
             }
         }
 
-        if (popUpIndex ==0)
+        if (popUpIndex == 0)
         {
-            if(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.S)){
+            if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.S))
+            {
                 popUpIndex++;
             }
-        }else if (popUpIndex == 1)
+        }
+        else if (popUpIndex == 1)
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
@@ -35,8 +37,6 @@ public class TutorialManager : MonoBehaviour
             }
         }
         else if (popUpIndex == 2)
-        {
-            popUps[popUpIndex].SetActive(false);
-        }
+        { }
     }
 }

@@ -14,7 +14,7 @@ public class MainMenuScript : MonoBehaviour
 
     public void Play(int sceneID)
     {
-        SceneManager.LoadScene("Planicie");
+        SceneManager.LoadScene("Cutscene");
 
         audiosource.PlayOneShot(audiosource.clip);
     }
