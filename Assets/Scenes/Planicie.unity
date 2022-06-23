@@ -3306,7 +3306,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &140949228
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9545,7 +9545,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1.1
-  m_Text: "Grupo4 \nv1.00"
+  m_Text: "Grupo4 \nv2.00"
 --- !u!222 &398414564
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22666,6 +22666,7 @@ GameObject:
   - component: {fileID: 1026398285}
   - component: {fileID: 1026398287}
   - component: {fileID: 1026398286}
+  - component: {fileID: 1026398288}
   m_Layer: 0
   m_Name: TextBox Image
   m_TagString: Untagged
@@ -22731,6 +22732,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1026398284}
   m_CullTransparentMesh: 1
+--- !u!95 &1026398288
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026398284}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 979293cb02657dd4cad3b0bf3f8add48, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1027606552
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24721,8 +24741,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 51.936737, y: -48.63672}
-  m_SizeDelta: {x: 67.9335, y: 67.9335}
+  m_AnchoredPosition: {x: 37, y: -41.1184}
+  m_SizeDelta: {x: 52.8969, y: 52.8969}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1113755276
 MonoBehaviour:
@@ -33708,8 +33728,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -18.005249, y: -16.718994}
+  m_SizeDelta: {x: 354.9592, y: 167.1908}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1628023282
 MonoBehaviour:
@@ -38969,6 +38989,7 @@ GameObject:
   - component: {fileID: 1952753917}
   - component: {fileID: 1952753919}
   - component: {fileID: 1952753918}
+  - component: {fileID: 1952753920}
   m_Layer: 5
   m_Name: HP Counter
   m_TagString: Untagged
@@ -38992,8 +39013,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 204.3, y: -48.637}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 151.5816, y: -50}
+  m_SizeDelta: {x: 155.7313, y: 38.9328}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1952753918
 MonoBehaviour:
@@ -39044,13 +39065,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 55
-  m_fontSizeBase: 55
+  m_fontSize: 40.2
+  m_fontSizeBase: 40
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontSizeMax: 71.52
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -39080,7 +39101,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: -6.020813, z: 19.567566, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -39094,6 +39115,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1952753916}
   m_CullTransparentMesh: 1
+--- !u!114 &1952753920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952753916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 4, y: -4}
+  m_UseGraphicAlpha: 1
 --- !u!1001 &1960011228
 PrefabInstance:
   m_ObjectHideFlags: 0
