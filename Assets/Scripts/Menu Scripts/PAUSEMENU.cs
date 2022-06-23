@@ -16,9 +16,13 @@ public class PAUSEMENU : MonoBehaviour
     [SerializeField] private GameObject abilityUI;
     [SerializeField] private GameObject slimeLog;
 
+    [SerializeField] private AudioSource audiosource;
+
+    private int count = 0;
+
     private void Start()
     {
-        
+        audiosource = FindObjectOfType<AudioSource>().GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -42,11 +46,17 @@ public class PAUSEMENU : MonoBehaviour
         if (slimeLogOn)
         {
             SlimeLog();
+            if (count == 0)
+                audiosource.PlayOneShot(audiosource.clip);
+            count++;
         }
+        else if (slimeLogOn == false)
+            count = 0;
     }
 
     public void Resume()
     {
+        audiosource.PlayOneShot(audiosource.clip);
         pauseMenu.SetActive(false); 
         Time.timeScale = 1f;
         GameisPaused = false;
@@ -61,6 +71,7 @@ public class PAUSEMENU : MonoBehaviour
 
     void Pause()
     {
+        audiosource.PlayOneShot(audiosource.clip);
         pauseMenu.SetActive(true);
         Time.timeScale = 0f;
         GameisPaused = true;
@@ -80,6 +91,7 @@ public class PAUSEMENU : MonoBehaviour
 
     public void QuitSlimeLog()
     {
+        audiosource.PlayOneShot(audiosource.clip);
         slimeLogOn = false;
         slimeLog.SetActive(false);
         Pause();
@@ -87,6 +99,7 @@ public class PAUSEMENU : MonoBehaviour
 
     public void QuitGame()
     {
+        audiosource.PlayOneShot(audiosource.clip);
         Application.Quit();
         Debug.Log("ta a clicar");
     }
