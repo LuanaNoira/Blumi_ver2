@@ -25490,6 +25490,14 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0.011279866
       objectReference: {fileID: 0}
+    - target: {fileID: 8407502903475938344, guid: fd8ab260f05ef294cb00cf212d413ce0, type: 3}
+      propertyPath: mStun
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8407502903475938344, guid: fd8ab260f05ef294cb00cf212d413ce0, type: 3}
+      propertyPath: mSound
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8407502904014873965, guid: fd8ab260f05ef294cb00cf212d413ce0, type: 3}
       propertyPath: magicSound
       value: 
