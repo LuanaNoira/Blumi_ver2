@@ -34,6 +34,8 @@ TagManager:
   - AngryParticle
   - Gordo
   - InteractSound
+  - Waypoint6
+  - Waypoint7
   layers:
   - Default
   - TransparentFX
