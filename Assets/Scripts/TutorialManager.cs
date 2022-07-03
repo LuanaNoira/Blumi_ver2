@@ -49,7 +49,10 @@ public class TutorialManager : MonoBehaviour
         {
             popUps[popUpIndex - 1].SetActive(false);
             if (slimeTutorial.charmed)
+            {
                 popUps[popUpIndex].SetActive(false);
+                popUpIndex++;
+            }
         }
     }
 

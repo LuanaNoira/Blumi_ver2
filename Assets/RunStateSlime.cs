@@ -28,16 +28,16 @@ public class RunStateSlime : StateMachineBehaviour
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         float distance = Vector3.Distance(animator.transform.position, player.position);
+        Vector3 dirToPlayer = animator.transform.position - player.position;
+
+        Vector3 newPos = animator.transform.position + (2*dirToPlayer);
+
 
         if (distance < distanceRun)
         {
-            Vector3 dirToPlayer = animator.transform.position - player.position;
-
-            Vector3 newPos = animator.transform.position + dirToPlayer;
-
             agent.SetDestination(newPos);
         }
-        else if (distance > distanceRun)
+        else if (distance > distanceRun + 2)
         {
             animator.SetBool("isRunning", false);
             animator.SetBool("isPatrolling", true);
